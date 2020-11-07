@@ -4,7 +4,7 @@ heroImage: /flydog-sdr.png
 heroText: FlyDog SDR Project
 tagline: Your next HF receiver is not receiver
 actionText: Quick start →
-actionLink: /en/guide/start.html
+actionLink: /en/guide/requirements.html
 features:
 - title: Awesome compatibility
   details: The FlyDog SDR is compatible with KiwiSDR and runs smoothly on a variety of ARM based development boards such as Raspberry Pi, Orange Pi and others.
