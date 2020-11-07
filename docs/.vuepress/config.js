@@ -57,7 +57,7 @@ module.exports = {
                             ],
                         },
                         {
-                            title: '组装指南',
+                            title: '组装指北',
                             collapsable: false,
                             children: [
                                 'raspberrypi',
