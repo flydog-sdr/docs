@@ -24,7 +24,7 @@ In the following tutorial, the image will be named `FlyDog-SDR_4.02_2020-11-07_R
 
 ### Windows
 
- 1. download the Raspberry Pi Imager tool (https://mirrors.bfsu.edu.cn/raspberry-pi-os-images/imager/imager.exe) provided by Raspberry Pi, which can also be used for development of the Orange Pi, etc. The Raspberry Pi Imager will be installed.
+ 1. download the [Raspberry Pi Imager](https://mirrors.bfsu.edu.cn/raspberry-pi-os-images/imager/imager.exe) provided by Raspberry Pi, which can also be used for development of the Orange Pi, etc. The Raspberry Pi Imager will be installed.
  2. After installation, run Raspberry Pi Imager, click CHOOSE OS in the main interface, and then select Use custom to import the file `FlyDog-SDR_4.02_2020-11-07_Raspberry-Pi.tar.gz` that will be flushed to the SD card.
  3. After selecting the target SD card, press WRITE and wait for the image to be written.
  4. Remove the SD card, insert the development board card slot.
@@ -33,7 +33,7 @@ In the following tutorial, the image will be named `FlyDog-SDR_4.02_2020-11-07_R
 
 The macOS procedure is essentially the same as for Windows.
 
- 1. download the Raspberry Pi Imager tool (https://mirrors.bfsu.edu.cn/raspberry-pi-os-images/imager/imager.dmg) provided by Raspberry Pi, which can also be used for development of the Orange Pi, etc. The Raspberry Pi Imager will be installed.
+ 1. download the [Raspberry Pi Imager](https://mirrors.bfsu.edu.cn/raspberry-pi-os-images/imager/imager.dmg) provided by Raspberry Pi, which can also be used for development of the Orange Pi, etc. The Raspberry Pi Imager will be installed.
  2. After installation, run Raspberry Pi Imager, click CHOOSE OS in the main interface, and then select Use custom to import the file `FlyDog-SDR_4.02_2020-11-07_Raspberry-Pi.tar.gz` that will be flushed to the SD card.
  3. After selecting the target SD card, press WRITE and wait for the image to be written.
  4. Remove the SD card, insert the development board card slot.
