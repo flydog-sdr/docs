@@ -63,7 +63,7 @@ tmpfs 49796 0 49796 0% /run/user/0
 /dev/sda1 15643576 4432804 10396388 30% /mnt/sda1
 [dev@example ~]$ sudo umount /mnt/sda1
 [dev@example ~]$ sudo dd if=FlyDog-SDR_4.02_2020-11-07_Raspberry-Pi.img of=/dev/sdb bs=4M &
-sudo watch kill -USR1 $(pgrep ^dd)
+[dev@example ~]$ sudo watch kill -USR1 $(pgrep ^dd)
 ```
  After the command is executed, use ``sync` to verify that the file has been fully written to the SD card.
 ``` ``
