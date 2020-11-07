@@ -1,4 +1,6 @@
-# Shopping List
+# Requirements
+
+## Shopping List
 
 A few components are required before you can use FlyDog SDR.
 

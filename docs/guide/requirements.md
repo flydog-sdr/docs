@@ -1,5 +1,7 @@
 # 准备工作
 
+## 采购清单
+
 在使用 FlyDog SDR 前，需要准备一些组件。
 
  - Raspberry Pi 或 Orange Pi 本体，可用型号参见后文
