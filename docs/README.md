@@ -33,6 +33,6 @@ FlyDog SDR 是一款衍生自 KiwiSDR，使用 16 位 ADC 采样的 SDR 产品�
  - 本站（[sdrotg.com](https://sdrotg.com)）源码来自 [v2fly/v2fly-github-io](https://github.com/v2fly/v2fly-github-io)，以 [CC-BY-SA 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/deed.zh) 授权。
     * 包括网站中所有可见的文字内容和图片
     * 包括 FlyDog SDR Project 图标文件
-    * 包括生成网站所使用到的源代码，即 [flydog-sdr/docs](https://github.com/flydog-sdr/docs)。
+    * 包括生成网站所使用到的源代码，即 [flydog-sdr/docs](https://github.com/flydog-sdr/docs)
  - 第三方创作内容，其版权应归其创作者所有，故 FlyDog SDR Project 放弃对以下内容的所有权。
     * 包括 FlyDog SDR Project 文档中所附相片、截图
