@@ -4,7 +4,7 @@ heroImage: /flydog-sdr.png
 heroText: FlyDog SDR Project
 tagline: 下一台短波接收机，无需是接收机
 actionText: 快速开始 →
-actionLink: /guide/start.html
+actionLink: /guide/requirements.html
 features:
 - title: 良好相容性
   details: FlyDog SDR 同 KiwiSDR 相兼容，且能够在 Raspberry Pi、Orange Pi 等多种 ARM 架构开发板上流畅运行。
