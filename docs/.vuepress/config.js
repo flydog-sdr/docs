@@ -97,9 +97,9 @@ module.exports = {
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
                 nav: [
-                    {text: 'Quick Start', link: '/en/guide/start',},
+                    {text: 'Quick Start', link: '/en/guide/requirements',},
                     {text: 'User Manual', link: '/en/manual/overview',},
-                    {text: 'Advanced operations', link: '/en/awesome/tools'},
+                    {text: 'Advanced operations', link: '/en/advanced/tools'},
                 ],
             },
         },
