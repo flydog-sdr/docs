@@ -20,8 +20,20 @@ jobs:
           yarn build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.5.7
-        with:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.DOCS_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.email "24319042+bclswl0827@users.noreply.github.com"
+          git config --global user.name "Yuki Kikuchi"
+          git clone -b gh-pages git@github.com:flydog-sdr/docs.git /tmp/docs
+          rm -rf /tmp/docs/*
+          mv docs/.vuepress/dist/* /tmp/docs
+          cd /tmp/docs/
+          git add .
+          git commit -m "Last updated on $(date)"
+          git push origin gh-pages
