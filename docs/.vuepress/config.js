@@ -52,7 +52,6 @@ module.exports = {
                             collapsable: false,
                             children: [
                                 'requirements',
-                                'boards',
                                 'tools',
                             ],
                         },
@@ -61,7 +60,6 @@ module.exports = {
                             collapsable: false,
                             children: [
                                 'raspberrypi',
-                                'orangepi',
                             ],
                         },
                         {

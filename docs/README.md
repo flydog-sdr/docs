@@ -7,7 +7,7 @@ actionText: 快速开始 →
 actionLink: /guide/requirements.html
 features:
 - title: 良好相容性
-  details: FlyDog SDR 同 KiwiSDR 相兼容，且能够在 Raspberry Pi、Orange Pi 等多种 ARM 架构开发板上流畅运行。
+  details: FlyDog SDR 同 KiwiSDR 相兼容，且能够在 Raspberry Pi 系列开发板上流畅运行。
 - title: 低价高可靠
   details: FlyDog SDR 能够以更低的价格获得，且拥有于 KiwiSDR 等同的可靠性。
 - title: 反向代理

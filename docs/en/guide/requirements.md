@@ -4,11 +4,12 @@
 
 A few components are required before you can use FlyDog SDR.
 
- - Raspberry Pi or Orange Pi itself, see later for available models
- - 5.1V 3A power supply to the development board is recommended to ensure stable operation of the FlyDog SDR.
- - Class 10 Micro SD card with 8GB or more capacity to ensure smooth system performance.
+ - Raspberry Pi itself, see later for available models
+ - 5.1V 3A power supply to the development board is recommended to ensure stable operation of the FlyDog SDR
+ - Class 10 Micro SD card with 8GB or more capacity to ensure smooth system performance
  - Micro SD card reader for writing images to SD cards
  - Network cables are used to connect development boards to the network
+ - GPS Antenna for frequency calibration.
 
 In addition, the following components are highly recommended, but they are not required.
 
