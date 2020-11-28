@@ -4,13 +4,12 @@
 
 在使用 FlyDog SDR 前，需要准备一些组件。
 
- - Raspberry Pi 或 Orange Pi 本体，可用型号参见后文
+ - Raspberry Pi 本体
  - GPS 天线，用于获取时间、校准频率
  - 推荐使用 5.1V 3A 对开发板进行供电，以保证 FlyDog SDR 能够稳定运行
  - Class 10 级别，容量为 8GB 以上的 Micro SD 卡，保证系统的流畅度
  - Micro SD 读卡器，用于向 SD 卡写入镜像
  - 网线用于将开发板接入网络
- - GPS 天线以校准频率
 
 此外，强烈建议使用以下组件，但它们不是必需的。
 
