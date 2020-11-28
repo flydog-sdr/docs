@@ -23,7 +23,7 @@ footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 
 ## FlyDog SDR 是什么
 
-FlyDog SDR 是一款衍生自 KiwiSDR，使用 16 位 ADC 采样的 SDR 产品。目前能在 Raspberry Pi 全系列、Orange Pi 多种型号上流畅使用，满足多种场景需求。
+FlyDog SDR 是一款衍生自 KiwiSDR，使用 16 位 ADC 采样的 SDR 产品。目前能在 Raspberry Pi 全系列上流畅使用，满足多种场景需求。
 
 ## 授权
 

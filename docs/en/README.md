@@ -23,7 +23,7 @@ footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 
 ## What is FlyDog SDR?
 
-FlyDog SDR is an SDR product derived from KiwiSDR and uses 16-bit ADC sampling. It currently works smoothly on the full range of Raspberry Pi and Orange Pi models to meet a variety of scenarios.
+FlyDog SDR is an SDR product derived from KiwiSDR and uses 16-bit ADC sampling. It currently works smoothly on the full range of Raspberry Pi to meet a variety of scenarios.
 
 ## Licence
 
