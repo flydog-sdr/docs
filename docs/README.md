@@ -41,9 +41,10 @@ FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由�
 
 | 序号 | 国家 | 地区 | 天线 | 访问 URL | 访问密码 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | 中国 | 江苏省镇江市 | SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
-| 2 | 中国 | 重庆市开州区 | Mini Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | 无 |
+| 1 | 中国 | 江苏省镇江市 | 3x8 metres SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
+| 2 | 中国 | 重庆市开州区 | PA0RDT Mini-Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | 无 |
 | 3 | 中国 | 浙江省衢州市 | K-180WLA Active Loop | [quzhou.p.sdrotg.com](http://quzhou.p.sdrotg.com/) | 无 |
+| 4 | 日本 | 大分县宇佐市 | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | 无 |
 
 ## 问与答（Q&A）
 
@@ -59,7 +60,7 @@ FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由�
 
 ### 问：FlyDog SDR 维护者有可能放弃这个项目吗？
 
-答：听说同类产品 RaspSDR 已经放弃他们的项目了，最后一次代码提交还在 2020 年。但可以保证的是，FlyDog SDR 绝不会停止维护，而且会始终对用户负责。
+答：听说同类产品 RaspSDR 已经放弃他们的项目了，最后一次代码提交还在 2020 年（在 FlyDog SDR Project 披露了这一事实后，他们更新了代码）。但可以保证的是，FlyDog SDR 会始终对用户负责。
 
 ### 问：我听说 FlyDog SDR 电路设计有问题？
 
@@ -68,6 +69,10 @@ FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由�
 ### 问：FlyDog SDR 怎么有三个天线接口？
 
 答：由于 FlyDog SDR 覆盖频率范围较广（0-62 MHz），部分 HF 天线未必适用于接收 50 MHz 的业余通信，所以多出来的接口（HF-2）也是为接收 50 MHz 的业余通信而设计的。有关天线接口的选用，FlyDog SDR 配套文档中亦有详细介绍。
+
+### 问：LTC2208 是劣质芯片？为何不选用更低底噪的 LTC2217？
+
+答：与 LTC2217 对比，LTC2208 底噪稍高，但选用 LTC2208  作为 ADC 是权衡了性能和成本的结果。事实上，LTC2208 根本不是劣质芯片。
 
 ## 取得联络
 
