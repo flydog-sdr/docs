@@ -9,18 +9,6 @@
           :src="platformToImagePath(platform)"
         />
       </span>
-      <span>
-        <img
-          :src="`https://img.shields.io/github/commit-activity/m/${urlToRepo(
-            url
-          )}?color=informational&label=commits&style=social`"
-        />
-        <img
-          :src="`https://img.shields.io/github/stars/${urlToRepo(
-            url
-          )}?style=social`"
-        />
-      </span>
     </h3>
     <p>{{ description }}</p>
   </section>
@@ -37,7 +25,7 @@ export default {
         mac: "/tools/apple.svg",
         linux: "/tools/linux.svg",
         android: "/tools/android.svg",
-        ios: "tools/ios.svg",
+        ios: "/tools/ios.svg",
       }[p];
     },
     urlToRepo(u) {

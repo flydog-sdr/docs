@@ -16,13 +16,8 @@ module.exports = {
         '/': {
             lang: 'zh-CN',
             title: 'FlyDog SDR',
-            description: 'FlyDog SDR 是一款衍生于 KiwiSDR，能运行在 Raspberry Pi、Orange Pi 等多种 ARM 架构开发板的 16 位 ADC 采样的高宽带 SDR',
+            description: 'FlyDog SDR 是一款衍生自 KiwiSDR，使用 16 位 ADC 采样的 SDR 产品。目前能在 Raspberry Pi 全系列上流畅使用，满足多种场景需求。',
         },
-        '/en/': {
-            lang: 'en',
-            title: 'FlyDog SDR',
-            description: 'The 16-Bit ADC KiwiSDR derivation Wide-band SDR + GPS cape for Raspberry Pi, Orange Pi...',
-        }
     },
     themeConfig: {
         repo: 'flydog-sdr',
@@ -42,13 +37,14 @@ module.exports = {
                 contributorsLabel: '贡献者',
                 nav: [
                     {text: '快速开始', link: '/guide/requirements',},
-                    {text: '使用手册', link: '/manual/overview',},
-                    {text: '进阶需求', link: '/advanced/tools'},
+                    {text: '使用手册', link: '/manual/connect',},
+                    {text: '体验 Demo', link: '/#体验-demo'},
+                    {text: '资源下载', link: 'https://d.sdrotg.com'},
                 ],
                 sidebar: {
                     '/guide/': [
                         {
-                            title: '快速开始',
+                            title: '准备事项',
                             collapsable: false,
                             children: [
                                 'requirements',
@@ -56,49 +52,52 @@ module.exports = {
                             ],
                         },
                         {
-                            title: '组装指北',
+                            title: '安装指南',
                             collapsable: false,
                             children: [
-                                'raspberrypi',
+                                'install',
+                                'antenna',
+                                'noise',
                             ],
                         },
                         {
-                            title: '安全使用',
+                            title: '运行 FlyDog SDR',
                             collapsable: false,
                             children: [
-                                'cooling',
-                                'fan',
+                                'initialisation',
+                                'breakdown',
+                            ],
+                        },
+                        {
+                            title: '质保和售后',
+                            collapsable: false,
+                            children: [
+                                'after-sale',
+                                'bug',
                             ],
                         },
                     ],
                     '/manual/': [
                         {
-                            title: '',
+                            title: '操作指南',
                             collapsable: false,
                             children: [
+                                'connect',
+                                'freq',
+				'dashboard',
                             ]
                         },
                         {
-                            title: '',
+                            title: '设定 FlyDog SDR',
                             collapsable: false,
                             children: [
+                                'admin',
+                                'public',
                             ]
                         }
                     ],
                     '/': 'auto',
                 },
-            },
-            '/en/': {
-                label: 'English',
-                selectText: '选择语言',
-                ariaLabel: '选择语言',
-                editLinkText: 'Edit this page on GitHub',
-                lastUpdated: 'Last Updated',
-                nav: [
-                    {text: 'Quick Start', link: '/en/guide/requirements',},
-                    {text: 'User Manual', link: '/en/manual/overview',},
-                    {text: 'Advanced operations', link: '/en/advanced/tools'},
-                ],
             },
         },
     },

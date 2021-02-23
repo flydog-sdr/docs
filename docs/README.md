@@ -1,13 +1,13 @@
 ---
 home: true
 heroImage: /flydog-sdr.png
-heroText: FlyDog SDR Project
-tagline: 下一台短波接收机，无需是接收机
-actionText: 快速开始 →
-actionLink: /guide/requirements.html
+heroText: FlyDog SDR
+tagline: 功能与性能兼备，就差下单了。
+actionText: 🛒 即刻购入
+actionLink: https://item.taobao.com/item.htm?id=633348873330
 features:
 - title: 良好相容性
-  details: FlyDog SDR 同 KiwiSDR 相兼容，且能够在 Raspberry Pi 系列开发板上流畅运行。
+  details: FlyDog SDR 同 KiwiSDR 相兼容，且能够在 Raspberry Pi 多系列开发板上流畅运行。
 - title: 低价高可靠
   details: FlyDog SDR 能够以更低的价格获得，且拥有于 KiwiSDR 等同的可靠性。
 - title: 反向代理
@@ -21,16 +21,68 @@ features:
 footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 ---
 
-## FlyDog SDR 是什么
+## FlyDog SDR 是什么？
 
-FlyDog SDR 是一款衍生自 KiwiSDR，使用 16 位 ADC 采样的 SDR 产品。目前能在 Raspberry Pi 全系列上流畅使用，满足多种场景需求。
+![FlyDog SDR 样品](/sample.jpg "FlyDog SDR 样品")
+
+如您所见，FlyDog SDR 衍生自 KiwiSDR，遵循相关开源协定发布，是一款使用 16 位 ADC 采样的 SDR 产品，覆盖宽带高达 62MHz。
+
+FlyDog SDR 目前能在 Raspberry Pi 多系列上流畅使用，满足多种场景需求。
+
+## FlyDog SDR Project 由谁主导？
+
+FlyDog SDR Project 由“杰至工作室”主导。
+
+“杰至工作室”由一群热爱无线电技术的人们组成，并致力于为中国大陆玩家提供可靠且廉价的 SDR 解决方案。
+
+## 体验 Demo！
+
+FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由用户自愿提供。
+
+| 序号 | 国家 | 地区 | 天线 | 访问 URL | 访问密码 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 中国 | 江苏省镇江市 | SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
+| 2 | 中国 | 重庆市开州区 | Mini Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | 无 |
+| 3 | 中国 | 浙江省衢州市 | K-180WLA Active Loop | [quzhou.p.sdrotg.com](http://quzhou.p.sdrotg.com/) | 无 |
+
+## 问与答（Q&A）
+
+针对一些人可能会产生的疑问，这里给出了相应的解答。
+
+### 问：你们和 KiwiSDR 是什么关系，算抄袭吗？
+
+答：FlyDog SDR 是由 KiwiSDR 二次开发得来，且完全开源，所以不算抄袭。
+
+### 问：FlyDog SDR 会被 KiwiSDR 认定为盗版被禁掉吗？
+
+答：不会的，FlyDog SDR 本身就不是盗版，且 FlyDog SDR 代码在独立仓库，不受 KiwiSDR 影响。
+
+### 问：FlyDog SDR 维护者有可能放弃这个项目吗？
+
+答：听说同类产品 RaspSDR 已经放弃他们的项目了，最后一次代码提交还在 2020 年。但可以保证的是，FlyDog SDR 绝不会停止维护，而且会始终对用户负责。
+
+### 问：我听说 FlyDog SDR 电路设计有问题？
+
+答：之前放在专案自述文件中的图片，是初期供开发者测试用的样品，与现在发售的 FlyDog SDR 完全不同，所以请放心，FlyDog SDR 电路设计没有问题，而且会向着低噪声的方向发展。
+
+### 问：FlyDog SDR 怎么有三个天线接口？
+
+答：由于 FlyDog SDR 覆盖频率范围较广（0-62 MHz），部分 HF 天线未必适用于接收 50 MHz 的业余通信，所以多出来的接口（HF-2）也是为接收 50 MHz 的业余通信而设计的。有关天线接口的选用，FlyDog SDR 配套文档中亦有详细介绍。
+
+## 取得联络
+
+任何询问或是反馈，请发送电邮到 [flydog_sdr-project@yahoo.co.jp](mailto:flydog_sdr-project@yahoo.co.jp)。
+
+FlyDog SDR 官方 QQ 群：1015109717。
+
+*欢迎加入“杰至工作室业余无线电交流群”，一同发现更多好物。“杰至工作室业余无线电交流群”QQ 群聊号码：42347348。*
 
 ## 授权
 
  - FlyDog SDR 源码由 [Beagle_SDR_GPS](https://github.com/jks-prv/Beagle_SDR_GPS) 修改得来，已遵照相关开源协定开源。
     * Copyright (c) 2014-2020 John Seamons, ZL/KF6VO
     * Copyright (c) 2018-2020 Christoph Mayer, DL1CH
- - 本站（[sdrotg.com](https://sdrotg.com)）源码来自 [v2fly/v2fly-github-io](https://github.com/v2fly/v2fly-github-io)，以 [CC-BY-SA 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/deed.zh) 授权。
+ - 本站（[sdrotg.com](https://sdrotg.com)）源码位于 [github.com/flydog-sdr/docs](https://github.com/flydog-sdr/docs)，以 [CC-BY-SA 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/deed.zh) 授权。
     * 包括网站中所有可见的文字内容和图片
     * 包括 FlyDog SDR Project 图标文件
     * 包括生成网站所使用到的源代码，即 [flydog-sdr/docs](https://github.com/flydog-sdr/docs)
