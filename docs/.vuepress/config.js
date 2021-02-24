@@ -18,6 +18,11 @@ module.exports = {
             title: 'FlyDog SDR',
             description: 'FlyDog SDR 是一款衍生自 KiwiSDR，使用 16 位 ADC 采样的 SDR 产品。目前能在 Raspberry Pi 全系列上流畅使用，满足多种场景需求。',
         },
+        '/en/': {
+            lang: 'en',
+            title: 'FlyDog SDR',
+            description: 'FlyDog SDR: The 16-Bit ADC KiwiSDR derivation Wide-band SDR + GPS cape for Raspberry Pi.',
+        }
     },
     themeConfig: {
         repo: 'flydog-sdr',
@@ -30,9 +35,9 @@ module.exports = {
         locales: {
             '/': {
                 selectText: 'Languages',
-                label: '简体中文',
+                label: '简中',
                 ariaLabel: 'Select language',
-                editLinkText: '在 GitHub 上编辑此页',
+                editLinkText: '前往 GitHub 编辑此页',
                 lastUpdated: '上次更新',
                 contributorsLabel: '贡献者',
                 nav: [
@@ -84,7 +89,7 @@ module.exports = {
                             children: [
                                 'connect',
                                 'freq',
-				'dashboard',
+                                'dashboard',
                             ]
                         },
                         {
@@ -97,6 +102,76 @@ module.exports = {
                         }
                     ],
                     '/': 'auto',
+                },
+            },
+            '/en/': {
+                label: 'English',
+                selectText: '选择语言',
+                ariaLabel: '选择语言',
+                editLinkText: 'Edit this page on GitHub',
+                lastUpdated: 'Last Updated',
+                nav: [
+                    {text: 'Quick Start', link: '/en/guide/requirements',},
+                    {text: 'User Manual', link: '/en/manual/connect',},
+                    {text: 'Experience Demos', link: '/en/#experience-the-demo'},
+                    {text: 'Downloads', link: 'https://d.sdrotg.com'},
+                ],
+                sidebar: {
+                    '/en/guide/': [
+                        {
+                            title: 'Preparations',
+                            collapsable: false,
+                            children: [
+                                'requirements',
+                                'tools',
+                            ],
+                        },
+                        {
+                            title: 'Installation',
+                            collapsable: false,
+                            children: [
+                                'install',
+                                'antenna',
+                                'noise',
+                            ],
+                        },
+                        {
+                            title: 'Launch FlyDog SDR',
+                            collapsable: false,
+                            children: [
+                                'initialisation',
+                                'breakdown',
+                            ],
+                        },
+                        {
+                            title: 'After Sale Services',
+                            collapsable: false,
+                            children: [
+                                'after-sale',
+                                'bug',
+                            ],
+                        },
+                    ],
+                    '/en/manual/': [
+                        {
+                            title: 'Operation Manual',
+                            collapsable: false,
+                            children: [
+                                'connect',
+                                'freq',
+                                'dashboard',
+                            ]
+                        },
+                        {
+                            title: 'Admin FlyDog SDR',
+                            collapsable: false,
+                            children: [
+                                'admin',
+                                'public',
+                            ]
+                        }
+                    ],
+                    '/en/': 'auto',
                 },
             },
         },

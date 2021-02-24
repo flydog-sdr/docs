@@ -45,7 +45,7 @@
 *由于国内直连速度较慢，某些情况下您可能需要通过代理服务器 / VPN 接入国际网络后才能正常下载。*
 
 <Tool
-    url="https://www.balena.io/etcher/"
+    url="https://rufus.ie/"
     name="Rufus"
     :platforms="['win']"
     description="Rufus 是一个可以帮助格式化和创建可引导可移动磁盘（Live USB）的开源工具，用户可以免费下载并使用。"
