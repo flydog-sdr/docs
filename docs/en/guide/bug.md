@@ -6,7 +6,7 @@ In the meantime, the FlyDog SDR Project welcomes feedback from users on issues t
 
 If you have a problem with your device that cannot be solved after a simple troubleshooting process as described in the [Common Troubleshootings](https://sdrotg.com/en/guide/breakdown.html) chapter, you can send your feedback to the FlyDog SDR Project in the following ways.
 
- - Via GitHub Issue: After logging into your GitHub account, go to the [Issue](https://github.com) of the [FlyDog_SDR_GPS](https://github.com/flydog-sdr/FlyDog_SDR_GPS) project /flydog-sdr/FlyDog_SDR_GPS/issues) and open a new Issue.
+ - Via GitHub Issue: After logging into your GitHub account, go to the [Issue](https://github.com/flydog-sdr/FlyDog_SDR_GPS/issues) of the [FlyDog_SDR_GPS](https://github.com/flydog-sdr/FlyDog_SDR_GPS) project /flydog-sdr/FlyDog_SDR_GPS/issues) and open a new Issue.
  - By email: Send an email with the subject line "Bug Report" to [flydog_sdr-project@yahoo.co.jp](mailto:flydog_sdr-project@yahoo.co.jp ).
 
 When sending feedback to the FlyDog SDR Project, the user should include the following. 1.
