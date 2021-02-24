@@ -1,4 +1,4 @@
-## Basic system information
+## Basic System Information
 
 ## Administration
 
