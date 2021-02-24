@@ -80,7 +80,7 @@ There are several ways to connect to the FlyDog SDR externally, but the differen
 
 Switching the tab to Connect allows the user to specify the relevant method of access to the FlyDog SDR, and the user can set up various ways of accessing the FlyDog SDR.
 
-For more information and instruction on how to open FlyDog SDR to the public network, please refer to [next chapter](https://sdrotg.com/manual/public.html#available-external-access-methods).
+For more information and instruction on how to open FlyDog SDR to the public network, please refer to [next chapter](https://sdrotg.com/en/manual/public.html).
 
 ![Incoming connection settings](/manual/admin_6.png "Incoming connection settings")
 
