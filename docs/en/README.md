@@ -23,7 +23,7 @@ footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 
 ## What is FlyDog SDR?
 
-! [FlyDog SDR sample](/sample.jpg "FlyDog SDR sample")
+![FlyDog SDR sample](/sample.jpg "FlyDog SDR sample")
 
 As you can see, the FlyDog SDR, derived from KiwiSDR and released under the relevant open source protocol, is an SDR product that uses 16-bit ADC sampling and covers a broadband of up to 62MHz.
 
@@ -39,7 +39,7 @@ The FlyDog SDR Project is led by Studio Jie.
 
 The FlyDog SDR Project is now offering the following examples for users to try out, all of which have been volunteered by users.
 
-| Serial Number | Country | Region | Antenna | Access URL | Access Password |
+| Number | Country | Region | Antenna | URL | User Password |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | China | Zhenjiang City, Jiangsu Province | 3x8 metres SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
 | 2 | China | Kaizhou District, Chongqing | PA0RDT Mini-Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | None |
