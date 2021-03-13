@@ -52,10 +52,10 @@ Switch the tab to Mode, select the FPGA mode and follow the instructions on the 
 
 The different FPGA modes have their own characteristics, the general differences are as follows.
 
- - Kiwi calssic: traditional FPGA mode, with a maximum of 4 users online at the same time
- - More receivers: up to 8 users can be online at the same time and can view the spectrum
- - More bandwidth: users can listen to broadcasts with a larger bandwidth (20 kHz) for better sound quality
- - MCORE rx14_wf0: up to 14 users online at the same time, no spectrum view, no DRM
+ - Kiwi calssic: traditional reception mode, four users for four spectrums
+ - More receivers: up to 8 users can be online at the same time, the first two users (rx1, rx2) can view the spectrum
+ - More bandwidth: users can listen to broadcasts with a larger bandwidth (20 kHz) for better sound quality, three users for three spectrums
+ - MCORE rx14_wf0: up to 14 users can be online at the same time, no spectrum viewing, no extensions
 
 ## Control FlyDog SDR
 

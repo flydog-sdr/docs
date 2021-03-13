@@ -43,6 +43,7 @@ module.exports = {
                 nav: [
                     {text: '快速开始', link: '/guide/requirements',},
                     {text: '使用手册', link: '/manual/connect',},
+                    {text: '面向开发者', link: '/developer/fpga',},
                     {text: '体验 Demo', link: '/#体验-demo'},
                     {text: '资源下载', link: 'https://d.sdrotg.com'},
                 ],
@@ -101,6 +102,15 @@ module.exports = {
                             ]
                         }
                     ],
+                    '/developer/': [
+                        {
+                            title: '自行构建 SDR',
+                            collapsable: false,
+                            children: [
+                                'fpga',
+                            ]
+                        }
+                    ],
                     '/': 'auto',
                 },
             },
@@ -113,6 +123,7 @@ module.exports = {
                 nav: [
                     {text: 'Quick Start', link: '/en/guide/requirements',},
                     {text: 'User Manual', link: '/en/manual/connect',},
+                    {text: 'For Developers', link: '/en/developer/fpga',},
                     {text: 'Experience Demos', link: '/en/#experience-the-demo'},
                     {text: 'Downloads', link: 'https://d.sdrotg.com'},
                 ],
@@ -168,6 +179,15 @@ module.exports = {
                             children: [
                                 'admin',
                                 'public',
+                            ]
+                        }
+                    ],
+                    '/en/developer/': [
+                        {
+                            title: 'Build your own SDR',
+                            collapsable: false,
+                            children: [
+                                'fpga',
                             ]
                         }
                     ],
