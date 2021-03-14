@@ -26,7 +26,7 @@ For Vivado 2019.2 release notes, see [ug973-vivado-release-notes-install-license
 
 To download Vivado 2019.2, developers will need to [create a Xilinx account](https://www.xilinx.com/registration/create-account.html).
 
-After logging in to your account, go to the [Vivado 2019.2 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/ 2019-2.html), select **Vivado HLx 2019.2: All OS installer Single-File Download** and fill in the relevant form to obtain the file download link.
+After logging in to your account, go to the [Vivado 2019.2 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2019-2.html), select **Vivado HLx 2019.2: All OS installer Single-File Download** and fill in the relevant form to obtain the file download link.
 
 The file size of Vivado 2019.2 is 26.55 GB and you will need to have a good internet connection to download it.
 
