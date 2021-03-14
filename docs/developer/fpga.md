@@ -75,20 +75,20 @@ project
 启动 Vivado 2019.2，在主页 Quick Start 下方选择 Create Project，新建一个专案。
 
  1. 在出现的向导中填入专案名称（flydog），并选择 `project` 目录所在的路径。
-![Project Name](/developer/fpga_1.jpg "Project Name")
+![Project Name](/developer/fpga_1.png "Project Name")
  2. Project Type 选择 RTL Project，不勾选 Do not specify source at this time。
  3. 按下 Add Directories，选择 `project/flydog/import_src`。勾选 Scan and add RTL include files into project 和 Add sources from sub directories，取消勾选 Copy sources into project。
-![Add Sources](/developer/fpga_2.jpg "Add Sources")
+![Add Sources](/developer/fpga_2.png "Add Sources")
  4. 在 Add Constraints 页面中按下 Add Files，选择 `KiwiSDR.xdc`，不勾选 Copy constraints files into project。
-![Add Constraints](/developer/fpga_3.jpg "Add Constraints")
+![Add Constraints](/developer/fpga_3.png "Add Constraints")
  5. 在 Default Part 页面中选择硬件。在搜索框中输入 `xc7a35tftg256-1`，选中列出的硬件。
-![Default Part](/developer/fpga_4.jpg "Default Part")
+![Default Part](/developer/fpga_4.png "Default Part")
 
 专案创建完成后，在 Vivado 2019.2 主界面左侧菜单按下 Add Sources，添加 IP 核。
 
  1. 在出现的向导中选择 Add or create design sources。
  2. 在随后出现的 Add or Create Design Sources 页面中按下 Add Directories，选择 `project/flydog/import_ip`。勾选 Copy sources into project 和 Add sources from subdirectories，取消勾选 Scan and add RTL include files into project。
-![Add or Create Design Sources](/developer/fpga_5.jpg "Add or Create Design Sources")
+![Add or Create Design Sources](/developer/fpga_5.png "Add or Create Design Sources")
  3. 按下 Finish，完成 IP 核的导入。
 
 IP 核导入时出现的严重警告是安全的，可以忽略。
