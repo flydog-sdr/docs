@@ -75,20 +75,20 @@ Copy everything under `FlyDog_SDR_GPS/verilog` to `project/flydog/import_src` an
 Start Vivado 2019.2 and select Create Project under Quick Start on the home page to create a new project.
 
  1. In the wizard that appears, fill in the project name (flydog) and select the path to the `project` directory.
-![Project Name](/develop/fpga_1.jpg "Project Name")
+![Project Name](/developer/fpga_1.jpg "Project Name")
  2. Select RTL Project for Project Type and leave Do not specify source at this time unchecked.
  3. Click Add Directories and select `project/flydog/import_src`. Check Scan and add RTL include files into project and Add sources from sub directories, uncheck Copy sources into project.
-![Add Sources](/develop/fpga_2.jpg "Add Sources")
+![Add Sources](/developer/fpga_2.jpg "Add Sources")
  4. Click Add Files on the Add Constraints page, select `KiwiSDR.xdc` and leave Copy constraints files into project unchecked.
-![Add Constraints](/develop/fpga_3.jpg "Add Constraints")
+![Add Constraints](/developer/fpga_3.jpg "Add Constraints")
  5. Select the hardware in the Default Part page. Type `xc7a35tftg256-1` in the search box and check the listed hardware.
-![Default Part](/develop/fpga_4.jpg "Default Part")
+![Default Part](/developer/fpga_4.jpg "Default Part")
 
 Once the project has been created, click Add Sources in the left menu of the Vivado 2019.2 main screen to add the IP cores.
 
  1. Select Add or create design sources in the wizard that appears.
  2. In the Add or Create Design Sources page that appears, click Add Directories and select `project/flydog/import_ip`. Check Copy sources into project and Add sources from subdirectories, uncheck Scan and add RTL include files into project.
-![Add or Create Design Sources](/develop/fpga_5.jpg "Add or Create Design Sources")
+![Add or Create Design Sources](/developer/fpga_5.jpg "Add or Create Design Sources")
  3. Click Finish to complete the import of the IP cores.
 
 The critical warning that appears during IP core import is safe and can be ignored.
@@ -143,7 +143,7 @@ The path to the generated FPGA bitstream file is ``project/flydog/flydog.runs/im
 
 ### KiwiSDR.rx14.wf0.bit
 
-The operation is much the same as generating KiwiSDR.rx3.wf3.bit, except that the `RX_CFG` field in the `kiwi.gen.vh` file has a corresponding value of `14` and the ``define USE_WF` field needs to be removed and commented out.
+The operation is much the same as generating KiwiSDR.rx3.wf3.bit, except that the `RX_CFG` field in the `kiwi.gen.vh` file has a corresponding value of `14` and the `define USE_WF` field needs to be removed or commented out.
 
 The code is as follows.
 
