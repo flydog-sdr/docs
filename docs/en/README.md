@@ -31,7 +31,7 @@ FlyDog SDR is currently available on a wide range of Raspberry Pi families and c
 
 ## Who is leading the FlyDog SDR Project?
 
-The FlyDog SDR Project is led by Studio Jie.
+The FlyDog SDR Project is led by Jie Zhi Studio.
 
 "Jie Zhi Studio is a group of people who are passionate about radio technology and are committed to providing reliable and affordable SDR solutions for mainland Chinese gamers.
 
