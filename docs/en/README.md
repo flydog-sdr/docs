@@ -61,7 +61,7 @@ A: No, FlyDog SDR is not a pirated version and the FlyDog SDR code is in a separ
 
 ### Q: Is it possible that the FlyDog SDR maintainers will abandon the project?
 
-A: I have heard that the similar product RaspSDR has already abandoned their project and the last code commit is still in 2020 (After the FlyDog SDR Project revealed this fact, they updated their code). However, it can be assured that FlyDog SDR will always be accountable to its users.
+A: I have heard that the similar product RaspSDR has already abandoned their project and the last code commit is still in Feb 12, 2021. However, it can be assured that FlyDog SDR will always be accountable to its users.
 
 ### Q: I've heard that there are problems with the FlyDog SDR circuit design?
 
