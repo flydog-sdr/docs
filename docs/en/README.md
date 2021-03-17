@@ -41,11 +41,11 @@ The FlyDog SDR Project is now offering the following examples for users to try o
 
 | Number | Country | Region | Antenna | URL | User Password |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | China | Zhenjiang City, Jiangsu Province | 3x8 metres SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
-| 2 | Finland | Kotka City, Kymenlaakso Region | Nti MegaDipol MD300DX | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
-| 3 | China | Kaizhou District, Chongqing | PA0RDT Mini-Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | None |
-| 4 | China | Quzhou City, Zhejiang Province | K-180WLA Active Loop | [quzhou.p.sdrotg.com](http://quzhou.p.sdrotg.com/) | None |
-| 5 | Japan | Usa-shi, Ōita Prefecture | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | None |
+| 1 | Finland | Kotka City, Kymenlaakso Region | 190 metres @140° Beverage | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
+| 2 | China | Zhenjiang City, Jiangsu Province | 3x8 metres SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
+| 3 | Japan | Usa-shi, Ōita Prefecture | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | None |
+| 4 | China | Kaizhou District, Chongqing | PA0RDT Mini-Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | None |
+| 5 | China | Quzhou City, Zhejiang Province | K-180WLA Active Loop | [quzhou.p.sdrotg.com](http://quzhou.p.sdrotg.com/) | None |
 
 ## Questions and Answers (Q & A)
 
