@@ -104,9 +104,10 @@ module.exports = {
                     ],
                     '/developer/': [
                         {
-                            title: '自行构建 SDR',
+                            title: '构建 FlyDog SDR',
                             collapsable: false,
                             children: [
+                                'docker',
                                 'fpga',
                             ]
                         }
@@ -184,9 +185,10 @@ module.exports = {
                     ],
                     '/en/developer/': [
                         {
-                            title: 'Build your own SDR',
+                            title: 'Build FlyDog SDR',
                             collapsable: false,
                             children: [
+                                'docker',
                                 'fpga',
                             ]
                         }

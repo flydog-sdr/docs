@@ -49,7 +49,13 @@ For Linux systems, add `export PATH=/opt/Xilinx/Vivado/2019.2/bin:$PATH` to the 
 Use Git to get the `FlyDog_SDR_GPS` core source code.
 
 ```
-[fdsdr@flydog-sdr-project: ~]$ git clone https://github.com/flydog-sdr/FlyDog_SDR_GPS.git
+[fdsdr@flydog-sdr-project ~]$ git clone https://github.com/flydog-sdr/FlyDog_SDR_GPS.git
+```
+
+For mainland China, it's recommend to pull using the GitHub mirror (github.com.cnpmjs.org).
+
+```
+[fdsdr@flydog-sdr-project ~]$ git clone https://github.com.cnpmjs.org/flydog-sdr/FlyDog_SDR_GPS.git
 ```
 
 Create a new empty directory called `project` and create a new subdirectory `flydog` in this empty directory.
@@ -57,7 +63,7 @@ Create a new empty directory called `project` and create a new subdirectory `fly
 Then create two new directories `import_src` and `import_ip` in the `flydog` directory, with the following directory tree structure.
 
 ```
-[fdsdr@flydog-sdr-project: ~]$ tree -d project
+[fdsdr@flydog-sdr-project ~]$ tree -d project
 project
 └── flydog
     ├── import_ip

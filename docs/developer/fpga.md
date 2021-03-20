@@ -49,7 +49,13 @@ Vivado 2019.2 文件大小为 26.55 GB，下载时需要保持网络通畅。
 使用 Git 获取 FlyDog_SDR_GPS 核心源码。
 
 ```
-[fdsdr@flydog-sdr-project: ~]$ git clone https://github.com/flydog-sdr/FlyDog_SDR_GPS.git
+[fdsdr@flydog-sdr-project ~]$ git clone https://github.com/flydog-sdr/FlyDog_SDR_GPS.git
+```
+
+对于中国大陆，可以使用 GitHub 镜像（github.com.cnpmjs.org）进行拉取。
+
+```
+[fdsdr@flydog-sdr-project ~]$ git clone https://github.com.cnpmjs.org/flydog-sdr/FlyDog_SDR_GPS.git
 ```
 
 新建一个名为 `project` 的空目录，并在这个空目录中新建子目录 `flydog`。
@@ -57,7 +63,7 @@ Vivado 2019.2 文件大小为 26.55 GB，下载时需要保持网络通畅。
 然后在 `flydog` 目录下新建 `import_src` 和 `import_ip` 两个目录，目录树结构如下。
 
 ```
-[fdsdr@flydog-sdr-project: ~]$ tree -d project
+[fdsdr@flydog-sdr-project ~]$ tree -d project
 project
 └── flydog
     ├── import_ip
