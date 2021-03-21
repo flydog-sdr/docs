@@ -78,7 +78,7 @@ fdsdr@flydog-sdr-project:~/raspbian-builder$ vim config
 
 ## Build
 
-Switch to the `root` user and run `wizard.sh`
+Switch to the `root` user and run `wizard.sh`.
 
 ```
 fdsdr@flydog-sdr-project:~/raspbian-builder$ sudo su
