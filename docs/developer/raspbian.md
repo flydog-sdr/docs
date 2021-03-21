@@ -78,7 +78,7 @@ fdsdr@flydog-sdr-project:~/raspbian-builder$ vim config
 
 ## 执行构建
 
-切换到 `root` 用户，运行 `wizard.sh`
+切换到 `root` 用户，运行 `wizard.sh`。
 
 ```
 fdsdr@flydog-sdr-project:~/raspbian-builder$ ./wizard.sh
