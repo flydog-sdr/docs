@@ -4,7 +4,7 @@ FlyDog SDR 在 Docker 中运行，所以需要构建 Docker 镜像。
 
 ## 搭建开发环境
 
-要构建用于 FlyDog SDR 的 Docker 镜像，需要在 `armv7l` 的环境下进行操作，或是使用 Docker Buildx 进行跨平台构建（不推荐，且目前需要开启 Docker 实验特性）。
+要构建用于 FlyDog SDR 的 Docker 镜像，需要在 `armv7l` 处理器架构的环境下进行操作，或是使用 Docker Buildx 进行跨平台构建（不推荐，且目前需要开启 Docker 实验特性）。
 
 ### 安装 Docker
 

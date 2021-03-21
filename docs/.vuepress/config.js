@@ -108,6 +108,7 @@ module.exports = {
                             collapsable: false,
                             children: [
                                 'docker',
+                                'raspbian',
                                 'fpga',
                             ]
                         }
@@ -189,6 +190,7 @@ module.exports = {
                             collapsable: false,
                             children: [
                                 'docker',
+                                'raspbian',
                                 'fpga',
                             ]
                         }
