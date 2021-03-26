@@ -122,6 +122,12 @@ FlyDog SDR Project 收到请求后，会在 3 个工作日内将反向代理连�
 
 例如需要在外网使用 8074 端口访问到 FlyDog SDR，则需要在外部端口（External port）处填入 8074，内部端口（Internal port）处填入 8073。
 
-![Change port](/manual/public_8.png "Change port")
+![Change port on OpenWRT](/manual/public_8.png "Change port on OpenWRT")
 
-保存并应用规则后，此后用户可以在外部网络用 8074 端口访问 FlyDog SDR，而内网仍然用 8073 端口访问。
+保存并应用规则后，然后前往 FlyDog SDR 后台管理，转到 Network 标签页，将 External port 表单中的 8073 修改改为 8074。
+
+![External port](/manual/public_9.png "External port")
+
+这是为了在更改外部端口的后，FlyDog SDR 向 `rx.linkfanel.net` 上传的站点资讯亦能更新。
+
+此后，用户可以在外部网络用 8074 端口访问 FlyDog SDR，而内网仍然用 8073 端口访问。

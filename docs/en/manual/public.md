@@ -124,4 +124,10 @@ For example, if you need to use port 8074 on the external network to access the 
 
 ![Change port](/manual/public_8.png "Change port")
 
-Once the rule has been saved and applied, the user can then access the FlyDog SDR on the external network using port 8074, while the internal network will still be accessed on port 8073.
+Once you have saved and applied the rule, then go to the FlyDog SDR administration, switch to the Network tab and change 8073 to 8074 in the External port form.
+
+![External port](/manual/public_9.png "External port")
+
+This is so that the site information uploaded by FlyDog SDR to `rx.linkfanel.net` will be also updated after the external port has been changed.
+
+Users can then access FlyDog SDR on the external network on port 8074, while the internal network is still accessible on port 8073.
