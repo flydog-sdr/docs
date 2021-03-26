@@ -23,7 +23,7 @@ The user can prove this in any of the following ways.
  - The serial number built into the FlyDog SDR, which you can obtain from the Network tab on the back office administration page
  - The order number from the dealer or distributor where the purchase was made
 
-## Warranty service
+## Warranty Service
 
 The FlyDog SDR is covered by a free one year warranty from the date of purchase.
 
@@ -46,3 +46,9 @@ The following cases are not covered by the free warranty, but the FlyDog SDR Pro
  - Failure or damage caused by accident, natural disaster or force majeure
  - Failure or damage caused by improper packing or handling during the repair process
  - Extreme or external factors beyond the control of FlyDog SDR, including but not limited to: power failure, fluctuation or interruption in the user's home
+
+## Returns and Exchanges
+
+For returns and exchanges, the user needs to follow the dealer's rules, which are particularly important for purchasers from overseas.
+
+For more information on returns and exchanges, please ask your dealer for details.

@@ -17,14 +17,12 @@ When assembling the device, please follow the installation guidelines below to e
 
 ## Selecting the Appropriate HF Interface
 
-The FlyDog SDR provides two HF input interfaces (HF-1, HF-2).
+The FlyDog SDR offers two HF input jacks (HF-1, HF-2), the lower the bandwidth, the more significant the signal attenuation.
 
  - HF-1: with 30 MHz low-pass filter
  - HF-2: with 62 MHz low-pass filter
 
-When the FlyDog SDR is set to receive 0-30 MHz, good results can be achieved by connecting the antenna to either interface; when the FlyDog SDR is set to receive 0-62 MHz, good results can be achieved by using HF-2.
-
-When the FlyDog SDR is set to receive 0-62 MHz and the antenna is connected to HF-1, fading occurs at around 27 MHz.
+In general, the FlyDog SDR Project recommends that users connect the antenna to the HF-2 interface for better results, while the HF-1 interface may be considered when the user is in an environment with strong electromagnetic interference.
 
 ## Precautions
 

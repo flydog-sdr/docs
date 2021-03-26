@@ -61,7 +61,7 @@ A: No, FlyDog SDR is not a pirated version and the FlyDog SDR code is in a separ
 
 ### Q: Is it possible that the FlyDog SDR maintainers will abandon the project?
 
-A: I have heard that the similar product RaspSDR has already abandoned their project and the last code commit is still in Feb 12, 2021. However, it can be assured that FlyDog SDR will always be accountable to its users.
+A: The comparable product RaspSDR seems to be very disinterested in their project. However, it can be guaranteed that FlyDog SDR will always be accountable to its users.
 
 ### Q: I've heard that there are problems with the FlyDog SDR circuit design?
 
@@ -69,7 +69,7 @@ A: The images previously included in the project description document were initi
 
 ### Q: How come the FlyDog SDR has three antenna interfaces?
 
-A: Due to the wide frequency range (0-62 MHz) covered by the FlyDog SDR, some of the HF antennas may not be suitable for receiving 50 MHz amateur traffic, so the extra interface (HF-2) is also designed for receiving 50 MHz amateur traffic. The choice of antenna interface is also described in detail in the FlyDog SDR companion document.
+A: The FlyDog SDR Project provides users with two different low-pass filters (30 MHz and 62 MHz) for use. The choice of antenna interface is also described in detail in the FlyDog SDR companion documents.
 
 ### Q: Is the LTC2208 an inferior chip? Why not use the LTC2217, which has a lower noise floor?
 

@@ -75,7 +75,7 @@ Possible cause.
 
 Solution.
 
- - Enable the Synchronous AM function on the instrument panel
+ - Enable the Synchronous Aperture Detection (SAM) function on the dashboard or connect the antenna to HF-1
  - Adjust the AGC-related options in the dashboard until no popping occurs
 
 ## Spectrogram is Black

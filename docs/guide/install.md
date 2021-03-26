@@ -17,14 +17,12 @@ FlyDog SDR 使用 40 针 GPIO 与 Raspberry Pi 进行通信。然而，不正确
 
 ## 选用合适的 HF 接口
 
-FlyDog SDR 提供两个 HF 输入接口（HF-1、HF-2）。
+FlyDog SDR 提供两个 HF 输入接口（HF-1、HF-2），带宽越低，信号衰减越明显。
 
  - HF-1：配备 30 MHz 低通滤波器
  - HF-2：配备 62 MHz 低通滤波器
 
-当 FlyDog SDR 设定为接收 0-30 MHz 时，将天线连接到任意一个接口都能取得较好效果；当 FlyDog SDR 设定为接收 0-62 MHz 时，使用 HF-2 能取得较好效果。
-
-而当 FlyDog SDR 设定为接收 0-62 MHz，且天线接在 HF-1 时，27 MHz 左右会出现衰减。
+一般来说，FlyDog SDR Project 推荐用户将天线连接到 HF-2 接口，这样可以取得较好效果；而当用户所处环境具有强烈电磁干扰时，可以考虑使用 HF-1 接口。
 
 ## 注意事项
 
