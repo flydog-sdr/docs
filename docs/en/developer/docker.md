@@ -78,9 +78,10 @@ Go to the `flydog-sdr` directory and modify the relevant environment variables i
 
 | ENV | Description |
 | :--- | :--- |
-| `GIT_URL` | Specify the GitHub hostname to speed up builds for mainland China |
-| `BRANCH` | Git branch |
-| `REPO` | Project name |
+| `GIT_BRANCH` | Specify a Git branch |
+| `GIT_HOST` | Specify the Git hostname |
+| `GIT_USER` | Specify the username for the repository |
+| `REPO_NANE` | Specify the repository name |
 
 When you're done, start building the main application and it will take about 15 minutes to complete the build.
 
