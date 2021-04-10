@@ -1,88 +1,37 @@
 # Build Raspbian
 
-FlyDog SDR provides an image of Raspbian with FlyDog SDR already integrated, or you can build your own Raspbian with FlyDog SDR already integrated.
+FlyDog SDR provides an image of Raspbian with FlyDog SDR already integrated, or you can build Raspbian with FlyDog SDR already integrated.
 
-## Build the Development Environment
+## Building with GitHub Actions
 
-To build a Raspbian image for FlyDog SDR, you need to be on an `armv7l` or `x86_64` processor architecture.
+To use GitHub Actions for cloud builds, you need to have a GitHub account.
 
-### System Requirements
+Go to [github.com/bclswl0827/raspbian-builder/actions](https://github.com/bclswl0827/raspbian-builder/actions), fork the project to your account, go to the Actions page and enable the GitHub Actions feature.
 
-The following requirements need to be met before building Raspbian with FlyDog SDR integrated.
+Make changes to the `config` file in the project's root directory, submit the code, and the cloud build process will be triggered.
 
- - The processor architecture of the machine to be built is `armv7l` or `x86_64`
- - The machine to be built uses a Linux distribution of Debian Buster or Ubuntu Bionic
- - The machine to be built is not running in a container (Docker)
- - The machine used for the build has not run Docker and will not run Docker in the future
+The build will take about 40 minutes to complete, and you will be able to get the appropriate system image when the build is complete.
 
-### Dependencies
+## Configuration
 
-Dependencies for building Raspbian need to be installed before you can perform the build task.
+The values of the `config` file are described below.
 
-```
-fdsdr@flydog-sdr-project:~$ apt-get update
-fdsdr@flydog-sdr-project:~$ apt-get -y install binfmt-support \
-                   coreutils \
-                   quilt \
-                   parted \
-                   qemu-user-static \
-                   debootstrap \
-                   zerofree \
-                   zip \
-                   dosfstools \
-                   bsdtar \
-                   libcap2-bin \
-                   rsync \
-                   xz-utils \
-                   file \
-                   git \
-                   curl \
-                   bc
-fdsdr@flydog-sdr-project:~$ apt-get autoremove --purge -y
-```
-
-### Get Source Code
-
-Pull the source code from GitHub to build Raspbian with FlyDog SDR integration.
-
-```
-fdsdr@flydog-sdr-project:~$ git clone https://github.com/flydog-sdr/raspbian-builder
-```
-
-For mainland China, you can pull using the GitHub mirror (github.com.cnpmjs.org).
-
-```
-fdsdr@flydog-sdr-project:~$ git clone https://github.com.cnpmjs.org/flydog-sdr/raspbian-builder
-```
-
-### Configuration
-
-Go to the `raspbian-builder` directory and modify `config`.
-
-```
-fdsdr@flydog-sdr-project:~$ cd raspbian-builder
-fdsdr@flydog-sdr-project:~/raspbian-builder$ vim config
-```
-
-| variables | description |
+| Variables | Descriptions |
 | :--- | :--- |
 | `IMG_NAME` | Image name |
-| `RELEASE` | Debian version code |
-| `TARGET_HOSTNAME` | Specify the host name |
-| `FIRST_USER_NAME` | Specify the username |
-| `FIRST_USER_PASS` | Specify the user password |
+| `RELEASE` | Debian version |
+| `TARGET_HOSTNAME` | Specify hostname |
+| `FIRST_USER_NAME` | Specify username |
+| `FIRST_USER_PASS` | Specify user password |
 | `ENABLE_SSH` | Enable SSH |
 | `LOCALE_DEFAULT` | Default Locale |
 | `KEYBOARD_KEYMAP` | Default keyboard layout |
-| `TIMEZONE_DEFAULT` | Default Time Zone |
+| `TIMEZONE_DEFAULT` | Default time zone |
 
-## Build
 
-Switch to the `root` user and run `wizard.sh`.
 
-```
-fdsdr@flydog-sdr-project:~/raspbian-builder$ sudo su
-root@flydog-sdr-project:~/raspbian-builder# ./wizard.sh
-```
 
-Once the image has been built, the generated image can be found under `builder/deploy/`.
+
+
+
+
