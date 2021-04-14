@@ -55,7 +55,7 @@ For mainland China, you can use Aliyun's Docker image accelerator when pulling b
 [fdsdr@flydog-sdr-project ~]$ docker image rm flydog-sdr.mirror.aliyuncs.com/library/debian:cluster-slim
 ```
 
-## Build
+## Build the Image
 
 Use Git to get the Dockerfile for FlyDog SDR.
 
