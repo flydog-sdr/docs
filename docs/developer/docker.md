@@ -23,10 +23,10 @@ armv7l
 [fdsdr@flydog-sdr-project ~]$ sudo sh -c /tmp/get-docker.sh
 ```
 
-对于中国大陆，在安装 Docker 时，可以加上 `--mirror Aliyun` 参数，使用 Aliyun 镜像进行安装。
+对于中国大陆，在安装 Docker 时，可以加上 `--mirror AzureChinaCloud` 参数，使用 AzureChinaCloud 镜像进行安装。
 
 ```
-[fdsdr@flydog-sdr-project ~]$ sudo sh -c /tmp/get-docker.sh --mirror Aliyun
+[fdsdr@flydog-sdr-project ~]$ sudo sh -c /tmp/get-docker.sh --mirror AzureChinaCloud
 ```
 
 安装完成后，将当前用户添加至 Docker 用户组 `docker`，然后重启。

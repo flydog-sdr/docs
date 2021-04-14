@@ -23,10 +23,10 @@ Automate the installation using Docker-related installation scripts.
 [fdsdr@flydog-sdr-project ~]$ sudo sh -c /tmp/get-docker.sh
 ```
 
-For mainland China, you can add the `-mirror Aliyun` parameter when installing Docker, and use the Aliyun image for installation.
+For mainland China, you can add the `-mirror AzureChinaCloud` parameter when installing Docker.
 
 ```
-[fdsdr@flydog-sdr-project ~]$ sudo sh -c /tmp/get-docker.sh --mirror Aliyun
+[fdsdr@flydog-sdr-project ~]$ sudo sh -c /tmp/get-docker.sh --mirror AzureChinaCloud
 ```
 
 Once the installation is complete, add the current user to the Docker usergroup `docker` and reboot.
