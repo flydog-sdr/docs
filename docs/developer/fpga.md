@@ -90,7 +90,7 @@ project
  5. 在 Default Part 页面中选择硬件。在搜索框中输入 `xc7a35tftg256-1`，选中列出的硬件。
 ![Default Part](/developer/fpga_4.png "Default Part")
 
-专案创建完成后，在 Vivado 2019.2 主界面左侧菜单按下 Add Sources，添加 IP 核。
+专案创建完成后，在 Vivado 2019.2 主界面左侧选单按下 Add Sources，添加 IP 核。
 
  1. 在出现的向导中选择 Add or create design sources。
  2. 在随后出现的 Add or Create Design Sources 页面中按下 Add Directories，选择 `project/flydog/import_ip`。勾选 Copy sources into project 和 Add sources from subdirectories，取消勾选 Scan and add RTL include files into project。
@@ -109,7 +109,7 @@ IP 核导入时出现的严重警告是安全的，可以忽略。
 
 默认情况下，`kiwi.gen.vh` 中的配置为四用户（rx4）四瀑布（wf4）。
 
-在 Vivado 2019.2 主界面左侧菜单按下 Generate Bitstream，随后 Vivado 2019.2 会对 IP 核进行综合，综合完成后，开始生成 FPGA 比特流。
+在 Vivado 2019.2 主界面左侧选单按下 Generate Bitstream，随后 Vivado 2019.2 会对 IP 核进行综合，综合完成后，开始生成 FPGA 比特流。
 
 根据计算机配置的不同，该过程所使用的时间亦有差异。
 
@@ -130,7 +130,7 @@ parameter RX_CFG = 4;
 `define USE_WF
 ```
 
-然后在 Vivado 2019.2 主界面左侧菜单按下 Generate Bitstream。
+然后在 Vivado 2019.2 主界面左侧选单按下 Generate Bitstream。
 
 生成的 FPGA 比特流文件路径为 `project/flydog/flydog.runs/impl_1/KiwiSDR.bit`。将该文件重命名为 `KiwiSDR.rx3.wf3.bit` 后，移动到其他目录。
 

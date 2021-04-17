@@ -60,3 +60,9 @@ By clicking on the tab called WF at the bottom of the dashboard, the user can sl
 To change the colour scheme of the spectrum, you can expand the menu at the bottom of the WF tab and choose from a variety of spectrum colour schemes including Kiwi.
 
 ![Waterfall](/manual/dashboard_5.png "Waterfall")
+
+## Mobile Device Touch
+
+ - To display the right-click menu on the PC, tap on the spectrum map with both fingers at the same time
+ - To zoom in and out of the spectrum graph, pinch and manipulate with both fingers, like zooming in on a photo
+ - On small screens, the default is the Lite interface, but you can switch between interfaces by tapping the Off key on the dashboard several times

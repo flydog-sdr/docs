@@ -78,3 +78,14 @@ When others access this URL, FlyDog SDR will automatically jump to the appropria
 This URL can be copied to the clipboard by pressing the button in the bottom right corner of the dashboard frequency input box on the main FlyDog SDR screen.
 
 ![Share URL](/manual/freq_6.png "Share URL")
+
+## Manual Frequency Correction
+
+In many cases when the user does not have a GPS antenna connected to the FlyDog SDR, the frequency can be corrected manually.
+
+ 1. tune the frequency to a timing station, e.g. 5000 kHz, 10000 kHz, 15000 kHz, using a higher frequency station if possible
+ 2. Amplify the spectrum and align the pointer exactly with the signal carrier line
+ 3. Right-click on the PC (on mobile devices quickly double-tap on the spectrum) and select cal ADC clock (admin) in the pop-up menu
+ 4. Enter the password and press Confirm
+
+![Frequency Correction](/manual/freq_7.png "Frequency Correction")
