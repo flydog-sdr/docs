@@ -6,7 +6,7 @@
     url="https://www.mozilla.org/"
     name="FireFox"
     :platforms="['linux','win','mac','android','ios']"
-    description="Mozilla Firefox, commonly known as Firefox, also commonly known as Firefox in Chinese, is a free and open source web browser developed by the Mozilla Foundation and its subsidiary Mozilla Corporation."
+    description="Mozilla Firefox, commonly known as Firefox, is a free and open source web browser developed by the Mozilla Foundation and its subsidiary Mozilla Corporation."
 />
 
 <Tool
@@ -53,7 +53,7 @@
     url="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
     name="PuTTY"
     :platforms="['linux','win','mac']"
-    description="PuTTY is a Telnet, SSH, rlogin, pure TCP and serial interface connection software. The whole software is less than 1M in size, but is fully functional and does not need to be installed, just download and use."
+    description="PuTTY is a Telnet, SSH, rlogin, pure TCP and serial interface connection software. The whole software is less than 1 MB in size, but is fully functional and does not need to be installed, just download and use."
 />
 
 <Tool
