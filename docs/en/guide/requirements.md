@@ -14,7 +14,7 @@ Before you can use the FlyDog SDR expansion board, there are a number of compone
 
 In addition, the following components are highly recommended, but not required
 
- - A case for the development board to protect it from short circuits
+ - A case for the Raspberry Pi to protect it from short circuits
  - A heat sink for the FlyDog SDR expansion board and Raspberry Pi to extend the life of the board
  - If you are in a lightning-prone area, consider using an 800J surge protector to protect the board from power surges
 
@@ -30,26 +30,26 @@ In the following tutorial, the image is called `2020-12-13-FlyDog-SDR-lite.zip`.
 
 ### Windows
 
- 1. Go to [next chapter](https://sdrotg.com/en/guide/tools.html#sd-card-burning-tool) and choose to install an SD card burning tool, here is balenaEtcher Here you can use balenaEtcher as an example
+ 1. Go to [next chapter](https://sdrotg.com/en/guide/tools.html#sd-card-burning-tool) and choose to install an SD card burning tool, here we use balenaEtcher as an example
  2. After installation, run balenaEtcher and import the file `2020-12-13-FlyDog-SDR-lite.zip` that will be flashed to the SD card
- 3. After selecting the target SD card, press Flash and wait for the image to finish
- 4. Remove the SD card and insert it into the development board slot
+ 3. After selecting the target SD card, click Flash and wait for the image to finish
+ 4. Remove the SD card and insert it into the Raspberry Pi SD card slot
 
 ### macOS
 
-The procedure for macOS is much the same as for Windows. 1.
+The procedure for macOS is much the same as for Windows.
 
- 1. Go to [next chapter](https://sdrotg.com/en/guide/tools.html#sd-card-burning-tool) for the balenaEtcher download address
+ 1. Go to [next chapter](https://sdrotg.com/en/guide/tools.html#sd-card-burning-tool) for the balenaEtcher download URL
  2. Once installed, run balenaEtcher and import the file `2020-12-13-FlyDog-SDR-lite.zip` that will be flashed to the SD card
- 3. After selecting the target SD card, press Flash and wait for the image to finish
- 4. Remove the SD card and insert it into the development board slot
+ 3. After selecting the target SD card, click Flash and wait for the image to finish
+ 4. Remove the SD card and insert it into the Raspberry Pi SD card slot
 
 ### Linux
 
 This method is suitable for Fedora Linux, Debian Linux, Ubuntu Linux, Arch Linux and other major Linux distributions.
 
- 1. Go to [next chapter](https://sdrotg.com/en/guide/tools.html#sd-card-burning-tool) for the balenaEtcher download address
- 2. Download the Appimage archive provided by balenaEtcher according to the system bit number you are using, extract the file ending with `.AppImage` and right-click on it
+ 1. Go to [next chapter](https://sdrotg.com/en/guide/tools.html#sd-card-burning-tool) for the balenaEtcher download URL
+ 2. Download the Appimage archive provided by balenaEtcher according to the system bit number you are using, extract the file ending with `.AppImage` and run it
  3. Once balenaEtcher has started, import the file `2020-12-13-FlyDog-SDR-lite.zip` that will be flashed to the SD card
- 4. After selecting the target SD card, press Flash and wait for the image to finish
- 5. Remove the SD card and insert it into the development board slot
+ 4. After selecting the target SD card, click Flash and wait for the image to finish
+ 5. Remove the SD card and insert it into the Raspberry Pi SD card slot
