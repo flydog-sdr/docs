@@ -2,22 +2,22 @@
 home: true
 heroImage: /flydog-sdr.png
 heroText: FlyDog SDR
-tagline: Functionality and performance are ready, it's time to place an order.
+tagline: Functionality and Performance are ready, it's time to place an order.
 actionText: 🛒 Purchase Now
 actionLink: https://www.aliexpress.com/item/1005001965682869.html
 features:
-- title: Good compatibility
-  details: FlyDog SDR is compatible with KiwiSDR and runs smoothly on a wide range of Raspberry Pi ARM based computer..
-- title: Affordable and reliable
+- title: Good Compatibility
+  details: FlyDog SDR is compatible with KiwiSDR and runs smoothly on a wide range of Raspberry Pi ARM based computer.
+- title: Affordable and Reliable
   details: FlyDog SDR is available at a lower price and has the same reliability as KiwiSDR.
 - title: Reverse Proxy
   details: The FlyDog SDR Project provides a dedicated reverse proxy server for external access to FlyDog SDR through the intranet and is configured with Content Delivery Network global acceleration.
-- title: Fully open source
-  details: From the core source code to system image build scripts, FlyDog SDR code is completely open source, leaving no backdoors.
-- title: Dedicated update channel
+- title: Open Source
+  details: From the core source code to system image build scripts, FlyDog SDR is open source, leaving no malware and backdoors.
+- title: Dedicated Update Channel
   details: The FlyDog SDR Project provides a dedicated update channel for FlyDog SDR, which is tested multiple times before release to ensure availability.
-- title: Excellent performance
-  details: The FlyDog SDR uses a 16-bit ADC for sampling and covers a wide bandwidth of up to 62 MHz, giving performance comparable to KiwiSDR.
+- title: Excellent Performance
+  details: The FlyDog SDR uses a 16-Bit ADC for sampling and covers a wide bandwidth of up to 62 MHz, giving performance comparable to KiwiSDR.
 footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 ---
 
@@ -25,19 +25,23 @@ footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 
 ![FlyDog SDR sample](/sample.jpg "FlyDog SDR sample")
 
-As you can see, the FlyDog SDR, derived from KiwiSDR and released under the relevant open source protocol, is an SDR product that uses 16-bit ADC sampling and covers a broadband of up to 62MHz.
+As you can see, the FlyDog SDR, derived from KiwiSDR and released under the relevant open source license, is an SDR product that uses 16-Bit ADC sampling and covers a band up to 62MHz.
 
 FlyDog SDR is currently available on a wide range of Raspberry Pi families and can be used in a variety of scenarios.
 
-## Who is leading the FlyDog SDR Project?
+ - Raspberry Pi 2B
+ - Raspberry Pi 3B/3B+/3A+
+ - Raspberry Pi 4B
 
-The FlyDog SDR Project is led by Jie Zhi Studio.
+## Who is Leading the FlyDog SDR Project?
 
-"Jie Zhi Studio is a group of people who are passionate about radio technology and are committed to providing reliable and affordable SDR solutions for mainland Chinese gamers.
+The FlyDog SDR Project is led by JieZhi Studio.
+
+"JieZhi Studio" is a group of people who are passionate about SDR technology and are committed to providing reliable and affordable SDR solutions for mainland Chinese gamers.
 
 ## Experience the Demo!
 
-The FlyDog SDR Project is now offering the following examples for users to try out, all of which have been volunteered by users.
+The FlyDog SDR Project is now offering the following demos for users to try out, all of which have been volunteered by users.
 
 | Number | Country | Region | Antenna | URL | User Password |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -65,11 +69,11 @@ A: The comparable product RaspSDR seems to be very disinterested in their projec
 
 ### Q: I've heard that there are problems with the FlyDog SDR circuit design?
 
-A: The images previously included in the project description document were initial samples for developer testing and are completely different to the FlyDog SDR now on sale, so rest assured that there are no problems with the FlyDog SDR circuit design and it will be moving towards low noise.
+A: [The image previously included in the project description document](https://i.loli.net/2020/08/28/8hHytJLSk5UlYRx.jpg) were initial samples for developer testing and are completely different to the FlyDog SDR now on sale, so rest assured that there are no problems with the FlyDog SDR circuit design and it will be moving towards low noise.
 
 ### Q: How come the FlyDog SDR has three antenna interfaces?
 
-A: The FlyDog SDR Project provides users with two different low-pass filters (30 MHz and 62 MHz) for use. The choice of antenna interface is also described in detail in the FlyDog SDR companion documents.
+A: The FlyDog SDR Project provides users with two different low-pass filters (30 MHz and 62 MHz) for use. The choice of antenna interface is also described in detail in the FlyDog SDR documentation.
 
 ### Q: Is the LTC2208 an inferior chip? Why not use the LTC2217, which has a lower noise floor?
 
