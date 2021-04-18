@@ -69,7 +69,7 @@ A: The comparable product RaspSDR seems to be very disinterested in their projec
 
 ### Q: I've heard that there are problems with the FlyDog SDR circuit design?
 
-A: [The image previously included in the project description document](https://i.loli.net/2020/08/28/8hHytJLSk5UlYRx.jpg) were initial samples for developer testing and are completely different to the FlyDog SDR now on sale, so rest assured that there are no problems with the FlyDog SDR circuit design and it will be moving towards low noise.
+A: [The image previously included in the repository README](https://i.loli.net/2020/08/28/8hHytJLSk5UlYRx.jpg) were initial samples for developer testing and are completely different to the FlyDog SDR now on sale, so rest assured that there are no problems with the FlyDog SDR circuit design and it will be moving towards low noise.
 
 ### Q: How come the FlyDog SDR has three antenna interfaces?
 
