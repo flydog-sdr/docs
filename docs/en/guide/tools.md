@@ -71,3 +71,10 @@
     :platforms="['win']"
     description="Reliable and free network scanner that allows users to scan for online devices on their network segment and get information about the IP, hostname, MAC address, etc. of devices on the same LAN."
 />
+
+<Tool
+    url="https://www.fing.com/products/fing-app"
+    name="Fing"
+    :platforms="['android','ios']"
+    description="Network scanning tool for Android and IOS."
+/>

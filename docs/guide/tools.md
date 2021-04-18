@@ -101,3 +101,12 @@
 />
 
 *由于国内直连速度较慢，某些情况下您可能需要通过代理服务器 / VPN 接入国际网络后才能正常下载。*
+
+<Tool
+    url="https://www.fing.com/products/fing-app"
+    name="Fing"
+    :platforms="['android','ios']"
+    description="用于 Android 和 IOS 的网络扫描工具。"
+/>
+
+*由于国内直连速度较慢，某些情况下您可能需要通过代理服务器 / VPN 接入国际网络后才能正常下载。*

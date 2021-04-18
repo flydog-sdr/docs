@@ -6,7 +6,7 @@ FlyDog SDR provides an image of Raspbian with FlyDog SDR already integrated, or 
 
 To use GitHub Actions for cloud builds, you need to have a GitHub account.
 
-Go to [github.com/bclswl0827/raspbian-builder/actions](https://github.com/bclswl0827/raspbian-builder/actions), fork the project to your account, go to the Actions page and enable the GitHub Actions feature.
+Go to [github.com/flydog-sdr/raspbian-builder](https://github.com/flydog-sdr/raspbian-builder), fork the project to your account, go to the Actions page and enable the GitHub Actions feature.
 
 Make changes to the `config` file in the project's root directory, submit the code, and the cloud build process will be triggered.
 
