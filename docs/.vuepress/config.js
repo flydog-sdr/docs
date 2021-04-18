@@ -99,6 +99,7 @@ module.exports = {
                             children: [
                                 'admin',
                                 'public',
+                                'update',
                             ]
                         }
                     ],
@@ -181,6 +182,7 @@ module.exports = {
                             children: [
                                 'admin',
                                 'public',
+                                'update',
                             ]
                         }
                     ],
