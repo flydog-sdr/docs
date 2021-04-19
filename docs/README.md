@@ -29,6 +29,10 @@ footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 
 FlyDog SDR 目前能在 Raspberry Pi 多系列上流畅使用，满足多种场景需求。
 
+ - Raspberry Pi 2B
+ - Raspberry Pi 3B/3B+/3A+
+ - Raspberry Pi 4B
+
 ## FlyDog SDR Project 由谁主导？
 
 FlyDog SDR Project 由“杰至工作室”主导。
@@ -65,7 +69,7 @@ FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由�
 
 ### 问：我听说 FlyDog SDR 电路设计有问题？
 
-答：之前放在专案自述文件中的图片，是初期供开发者测试用的样品，与现在发售的 FlyDog SDR 完全不同，所以请放心，FlyDog SDR 电路设计没有问题，而且会向着低噪声的方向发展。
+答：[之前放在专案自述文件中的图片](https://i.loli.net/2020/08/28/8hHytJLSk5UlYRx.jpg)，是初期供开发者测试用的样品，与现在发售的 FlyDog SDR 完全不同，所以请放心，FlyDog SDR 电路设计没有问题，而且会向着低噪声的方向发展。
 
 ### 问：FlyDog SDR 怎么有三个天线接口？
 
