@@ -18,7 +18,7 @@ After entering the default password `flydog-sdr` for the admin login, press Ente
 
 ## Change Default Password
 
-Since the initial password for the FlyDog SDR backend is `flydog-sdr`, it can be easily hacked, so you should change the default password after logging into the backend.
+Since the initial password for the FlyDog SDR administration is `flydog-sdr`, it can be easily hacked, so you should change the default password after logging into the administration.
 
 Switch the tab to Security and change the default password in the Admin password section to a different password, as shown here.
 
@@ -132,7 +132,7 @@ Switch the tab to Network and locate the four digits after the KiwiSDR serial nu
 
 ## Using the Console
 
-If you need to perform certain operations on the FlyDog SDR in the terminal, you can use the console service provided by the backend administration.
+If you need to perform certain operations on the FlyDog SDR in the terminal, you can use the console service provided by the administration.
 
 If you are using the console outside the local network, you will need to go to the Security tab and set Restrict console connections to the local network to No.
 

@@ -4,7 +4,7 @@ On the FlyDog SDR you can jump to the frequency you want to listen to in two way
 
 ## Enter the Frequency Directly
 
-Enter the frequency you want to listen to in the top left corner of the dashboard on the main FlyDog SDR screen and press Enter.
+Input the frequency you want to listen to in the top left corner of the dashboard on the main FlyDog SDR screen and press Enter.
 
 ![Frequency](/manual/freq_1.png "Frequency")
 

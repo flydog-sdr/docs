@@ -23,7 +23,7 @@ Generally speaking, there are three types of network environment, which correspo
  - Fixed IP provided by ISP `1.1.1.1` as an example
  - The operation on the gateway (router or switch) is based on OpenWRT, other gateway devices are similar
 
-Login to the OpenWRT backend, go to Firewall - Port Forwards and configure port forwarding.
+Login to the OpenWRT administration, go to Firewall - Port Forwards and configure port forwarding.
 
 ![Port Forwarding](/manual/public_1.png "Port Forwarding")
 
@@ -76,7 +76,7 @@ The FlyDog SDR Project offers free reverse proxy service for users and provides 
 
 Users can send an email to [flydog_sdr-project@yahoo.co.jp](mailto:flydog_sdr-project@yahoo.co.jp) to get the connection credentials for using the reverse proxy.
 
-The email should include the FlyDog SDR built-in Serial Number, which you can obtain from the Network tab on the backend administration page.
+The email should include the FlyDog SDR built-in Serial Number, which you can obtain from the Network tab on the administration page.
 
 The email format is as follows.
 
