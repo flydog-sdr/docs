@@ -92,4 +92,4 @@ Solution:
 
  - Set External ADC clock to No in the Connect tab in the administration 
  - Try to reboot the device by unplugging the power supply
- - Contact the aftermarket for repair of the FlyDog SDR expansion board
+ - Contact the dealer for repair of the FlyDog SDR expansion board
