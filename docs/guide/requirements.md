@@ -6,14 +6,14 @@
 
  - Raspberry Pi 本体
  - 合适的天线以接收无线电信号，可以前往[天线选用指南](https://sdrotg.com/guide/antenna.html)选择购买合适的天线
- - GPS 天线，用于获取时间、校准频率
- - 推荐使用 Raspberry Pi 原装电源对开发板进行供电，以保证 FlyDog SDR 拓展板能够稳定运行
+ - 推荐使用 Raspberry Pi 原装电源进行供电，以保证 FlyDog SDR 拓展板能够稳定运行
  - Class 10 级别，容量为 8GB 以上的 Micro SD 卡，保证系统的流畅度
  - Micro SD 读卡器，用于向 SD 卡写入镜像
  - 网线用于将 Raspberry Pi 接入网络，推荐使用超五类双屏蔽网线以降低干扰
 
 此外，强烈建议使用以下组件，但它们不是必需的。
 
+ - GPS 天线，用于获取时间、校准频率
  - 为开发板加装外壳，保护其免受短路
  - 为 FlyDog SDR 拓展板和 Raspberry Pi 加装散热片，延长使用寿命
  - 若所处地区系雷电频繁地区，请考虑使用 800J 浪涌保护器以保护开发板免遭电涌损坏

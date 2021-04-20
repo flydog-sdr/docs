@@ -2,12 +2,12 @@
 
 ## Technical Support
 
-The FlyDog SDR Project will provide technical support to users free of charge after the purchase of the FlyDog SDR.
+The FlyDog SDR Project provides technical support to users free of charge after the purchase of the FlyDog SDR.
 
 The technical support provided by FlyDog SDR Project to the user includes but is not limited to the following
 
  - Guidance on the operation and correct use of the FlyDog SDR
- - Provide users with relevant documentation, including system images and related software
+ - Provide users with relevant documentation, including system distributions and related software
  - Provide users with value-added services such as reverse proxy
  - Help users identify the cause of problems when they occur
 
@@ -20,7 +20,7 @@ In order to obtain technical support, the user will need to provide the relevant
 
 The user can prove this in any of the following ways.
 
- - The serial number built into the FlyDog SDR, which you can obtain from the Network tab on the back office administration page
+ - The built-in serial number of FlyDog SDR, which you can obtain from the Network tab on the administration
  - The order number from the dealer or distributor where the purchase was made
 
 ## Warranty Service

@@ -9,7 +9,7 @@ When assembling the device, please follow the installation guidelines below to e
  1. Align the wider side of the FlyDog SDR expansion board with the wider side of the Raspberry Pi body
  2. Align the FlyDog SDR expansion board slot with the GPIO pins on the Raspberry Pi body
  3. Push the Raspberry Pi body GPIO pins into the FlyDog SDR expansion board slot with a slight force to ensure a secure connection
- 4. Secure the two with screws etc.
+ 4. Secure the two pieces with screws etc.
 
 ![Install](/guide/install_1.png "Install")
 
@@ -17,7 +17,7 @@ When assembling the device, please follow the installation guidelines below to e
 
 ## Selecting the Appropriate HF Interface
 
-The FlyDog SDR offers two HF input jacks (HF-1, HF-2), the lower the bandwidth, the more significant the signal attenuation.
+The FlyDog SDR offers two HF input interfaces (HF-1, HF-2), the lower the bandwidth, the more significant the signal attenuation.
 
  - HF-1: with 30 MHz low-pass filter
  - HF-2: with 62 MHz low-pass filter

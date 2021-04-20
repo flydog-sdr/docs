@@ -5,22 +5,22 @@
 Before you can use the FlyDog SDR expansion board, there are a number of components that need to be prepared.
 
  - The Raspberry Pi body
- - Suitable antenna to receive radio signals, you can go to [Antenna Selection Guide](https://sdrotg.com/en/guide/antenna.html) to choose the right antenna to purchase
- - GPS antenna for time acquisition and frequency calibration
- - It is recommended that the board is powered by the original Raspberry Pi power supply to ensure stable operation of the FlyDog SDR expansion board
+ - Suitable antenna to receive signals, you can go to [Antenna Selection Guide](https://sdrotg.com/en/guide/antenna.html) to choose the right antenna to purchase
+ - It is recommended to use the official Raspberry Pi power supply to ensure stable operation of the FlyDog SDR expansion board
  - Class 10 Micro SD card with a capacity of 8GB or more to keep the system running smoothly
  - Micro SD card reader for writing images to the SD card
- - A network cable to connect the Raspberry Pi to the network. Super 5 double shielded cable is recommended to reduce interference.
+ - A network cable to connect the Raspberry Pi to the network. Super 5 double shielded cable is recommended to reduce the interference.
 
 In addition, the following components are highly recommended, but not required
 
+ - GPS antenna for time acquisition and frequency calibration
  - A case for the Raspberry Pi to protect it from short circuits
  - A heat sink for the FlyDog SDR expansion board and Raspberry Pi to extend the life of the board
  - If you are in a lightning-prone area, consider using an 800J surge protector to protect the board from power surges
 
 ## Write Image to SD Card
 
-Go to [d.sdrotg.com](https://d.sdrotg.com) to download the latest FlyDog SDR installation image.
+Go to [d.sdrotg.com](https://d.sdrotg.com) to download the latest FlyDog SDR system distribution.
 
 ![Download images](/guide/requirements_1.png "Download images")
 
