@@ -66,7 +66,7 @@ Solution:
 
 ## Intermittent Bursts of Sound
 
-Description of fault: Intermittent popping when receiving certain stations.
+Description: Intermittent bursts of sound when receiving certain stations.
 
 Possible Cause:
 
