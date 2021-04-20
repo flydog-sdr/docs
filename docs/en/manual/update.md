@@ -1,4 +1,4 @@
-# Automatic Updates
+# Disable Automatic Updates
 
 FlyDog SDR has a completely different approach to updates compared to KiwiSDR.
 
