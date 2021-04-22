@@ -88,7 +88,7 @@ For enquiries or feedback, please send an email to [flydog_sdr-project@yahoo.co.
  - FlyDog SDR source code is modified by [Beagle_SDR_GPS](https://github.com/jks-prv/Beagle_SDR_GPS) and is open source in accordance with the relevant open source agreement.
     * Copyright (c) 2014-2020 John Seamons, ZL/KF6VO
     * Copyright (c) 2018-2020 Christoph Mayer, DL1CH
- - The source code for this site ([sdrotg.com](https://sdrotg.com)) is located at [github.com/flydog-sdr/docs](https://github.com/flydog-sdr/docs) under the [CC-BY-SA 4.0 International License ](https://creativecommons.org/licenses/by/4.0/deed.zh) License.
+ - The source code for this site ([sdrotg.com](https://sdrotg.com)) is located at [github.com/flydog-sdr/docs](https://github.com/flydog-sdr/docs) under the [CC-BY-SA 4.0 International License ](https://creativecommons.org/licenses/by/4.0/deed.zh).
     * Includes all visible text content and images from the website
     * Includes FlyDog SDR Project icon files
     * Includes the source code used to generate the website, i.e. [flydog-sdr/docs](https://github.com/flydog-sdr/docs)
