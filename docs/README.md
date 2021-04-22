@@ -90,8 +90,8 @@ FlyDog SDR 官方 QQ 群：1015109717。
 ## 授权
 
  - FlyDog SDR 源码由 [Beagle_SDR_GPS](https://github.com/jks-prv/Beagle_SDR_GPS) 修改得来，已遵照相关开源协定开源。
-    * Copyright (c) 2014-2020 John Seamons, ZL/KF6VO
-    * Copyright (c) 2018-2020 Christoph Mayer, DL1CH
+    * Copyright (c) 2014-2021 John Seamons, ZL/KF6VO
+    * Copyright (c) 2018-2021 Christoph Mayer, DL1CH
  - 本站（[sdrotg.com](https://sdrotg.com)）源码位于 [github.com/flydog-sdr/docs](https://github.com/flydog-sdr/docs)，以 [CC-BY-SA 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/deed.zh) 授权。
     * 包括网站中所有可见的文字内容和图片
     * 包括 FlyDog SDR Project 图标文件
