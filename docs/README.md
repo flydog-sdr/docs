@@ -2,9 +2,10 @@
 home: true
 heroImage: /flydog-sdr.png
 heroText: FlyDog SDR
-tagline: 功能与性能兼备，就差下单了。
-actionText: 🛒 即刻购入
-actionLink: https://item.taobao.com/item.htm?id=633348873330
+tagline: FlyDog SDR 第一批产品目前已售罄，即将推出第二批产品...
+#tagline: 功能与性能兼备，就差下单了。
+#actionText: 🛒 即刻购入
+#actionLink: https://item.taobao.com/item.htm?id=633348873330
 features:
 - title: 良好相容性
   details: FlyDog SDR 同 KiwiSDR 相兼容，且能够在 Raspberry Pi 多系列开发板上流畅运行。
