@@ -2,9 +2,10 @@
 home: true
 heroImage: /flydog-sdr.png
 heroText: FlyDog SDR
-tagline: Functionality and Performance are ready, it's time to place an order.
-actionText: 🛒 Purchase Now
-actionLink: https://www.aliexpress.com/item/1005001965682869.html
+tagline: The first batch of FlyDog SDR is now sold out and the second batch will be available soon...
+#tagline: Functionality and Performance are ready, it's time to place an order.
+#actionText: 🛒 Purchase Now
+#actionLink: https://www.aliexpress.com/item/1005001965682869.html
 features:
 - title: Good Compatibility
   details: FlyDog SDR is compatible with KiwiSDR and runs smoothly on a wide range of Raspberry Pi ARM based computer.
