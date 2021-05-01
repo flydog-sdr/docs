@@ -100,6 +100,7 @@ module.exports = {
                                 'admin',
                                 'public',
                                 'update',
+                                'map',								
                             ]
                         }
                     ],
@@ -183,6 +184,7 @@ module.exports = {
                                 'admin',
                                 'public',
                                 'update',
+                                'map',	
                             ]
                         }
                     ],
