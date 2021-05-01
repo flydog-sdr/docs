@@ -17,7 +17,7 @@
 
 此外，实例亦可在上述网站同时列出。
 
-### Receiverbook
+## Receiverbook
 
 前往 [Receiverbook - add new receiver](https://www.receiverbook.de/receivers/new)，并在该页面中输入 FlyDog SDR 的 URL。
 
@@ -33,7 +33,7 @@ mydns.org:8073
 
 稍等片刻，即可在 [receiverbook.de/map](https://www.receiverbook.de/map) 看到自己的设备。
 
-### Linkfanel
+## Linkfanel
 
 前往 FlyDog SDR 后台管理中的 Public 标签页，打开 `Register on rx.kiwisdr.com?` 开关即可。
 

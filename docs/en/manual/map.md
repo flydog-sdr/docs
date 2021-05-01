@@ -17,7 +17,7 @@ Currently, users have the option to list FlyDog SDR instances in the following m
 
 Instances can also be listed on both of the sites at a same time.
 
-### Receiverbook
+## Receiverbook
 
 Go to [Receiverbook - add new receiver](https://www.receiverbook.de/receivers/new) and enter the URL of the FlyDog SDR on that page.
 
@@ -33,7 +33,7 @@ mydns.org:8073
 
 Wait a moment and you will see your instance at [receiverbook.de/map](https://www.receiverbook.de/map).
 
-### Linkfanel
+## Linkfanel
 
 Go to the Public tab in the FlyDog SDR administration and turn on the `Register on rx.kiwisdr.com?` switch.
 
