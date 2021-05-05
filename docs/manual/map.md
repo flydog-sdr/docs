@@ -8,6 +8,8 @@
  - FlyDog SDR 没有设定访客密码
  - FlyDog SDR 后台默认管理密码已经修改
 
+![Public Tab](/manual/map_1.png "Public Tab")
+
 ## 选择地图服务
 
 目前，用户可以选择在如下地图服务中列出 FlyDog SDR 实例。
@@ -31,11 +33,15 @@ example.p.sdrotg.com
 mydns.org:8073
 ```
 
+![Receiverbook - add new receiver](/manual/map_2.png "Receiverbook - add new receiver")
+
 稍等片刻，即可在 [receiverbook.de/map](https://www.receiverbook.de/map) 看到自己的设备。
 
 ## Linkfanel
 
 前往 FlyDog SDR 后台管理中的 Public 标签页，打开 `Register on rx.kiwisdr.com?` 开关即可。
+
+![Register on rx.kiwisdr.com?](/manual/map_3.png "Register on rx.kiwisdr.com?")
 
 但是根据用户反馈，KiwiSDR 似乎会屏蔽某些 FlyDog SDR 站点。这一情况主要发生在使用了反向代理时。
 
