@@ -80,9 +80,14 @@ A: The FlyDog SDR Project provides users with two different low-pass filters (30
 
 A: Compared to the LTC2217, the LTC2208 has a slightly higher noise floor, but the choice of the LTC2208 as ADC was a trade-off between performance and cost. In fact, the LTC2208 is not an inferior chip at all.
 
-## Get in touch
+## Stay Engaged with FlyDog SDR Project
 
-For enquiries or feedback, please send an email to [flydog_sdr-project@yahoo.co.jp](mailto:flydog_sdr-project@yahoo.co.jp).
+For any enquiries or feedback on this project, please email [flydog_sdr-project@yahoo.co.jp](mailto:flydog_sdr-project@yahoo.co.jp) (A reply is usually available within two working days), please use a reputable email provider such as Yahoo!, Gmail, Outlook etc.
+
+FlyDog SDR also has groups on Telegram and Facebook (English only) where users can join, get updates on FlyDog SDR and interact with the developers.
+
+ - Telegram: [t.me/flydog_sdr](https://t.me/flydog_sdr)
+ - Facebook: [facebook.com/groups/flydogsdr](https://facebook.com/groups/flydogsdr)
 
 ## Licensing
 

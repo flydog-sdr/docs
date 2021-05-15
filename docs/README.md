@@ -80,13 +80,16 @@ FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由�
 
 答：与 LTC2217 对比，LTC2208 底噪稍高，但选用 LTC2208  作为 ADC 是权衡了性能和成本的结果。事实上，LTC2208 根本不是劣质芯片。
 
-## 取得联络
+## 与 FlyDog SDR Project 保持互动
 
-任何询问或是反馈，请发送电邮到 [flydog_sdr-project@yahoo.co.jp](mailto:flydog_sdr-project@yahoo.co.jp)。
+有关本专案的任何询问或是反馈，请发送电邮到 [flydog_sdr-project@yahoo.co.jp](mailto:flydog_sdr-project@yahoo.co.jp)（一般能在两个工作日内得到回覆），请尽量使用 Yahoo!、Gmail、Outlook 等知名邮件提供商。
 
-FlyDog SDR 官方 QQ 群：1015109717。
+FlyDog SDR 在 Telegram 和 Facebook 上还成立了相关小组（仅限英文），用户可以加入这些小组，并在小组中获得有关 FlyDog SDR 的最新资讯，同时与开发者保持互动。
 
-*欢迎加入“杰至工作室业余无线电交流群”，一同发现更多好物。“杰至工作室业余无线电交流群”QQ 群聊号码：42347348。*
+ - Telegram：[t.me/flydog_sdr](https://t.me/flydog_sdr)
+ - Facebook：[facebook.com/groups/flydogsdr](https://facebook.com/groups/flydogsdr)
+
+对于中国大陆用户，可以加入 FlyDog SDR 官方 QQ 群：1015109717。
 
 ## 授权
 
