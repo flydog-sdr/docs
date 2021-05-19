@@ -46,7 +46,7 @@ FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由�
 
 | 序号 | 国家 | 地区 | 天线 | 访问 URL | 访问密码 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | 芬兰 | 屈米区科特卡市 | Wellbrook ALA1530LN | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | 无 |
+| 1 | 芬兰 | 屈米区科特卡市 | NTi MegaDipol MD300DX | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | 无 |
 | 2 | 中国 | 江苏省镇江市 | 3x8 metres SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
 | 3 | 日本 | 大分县宇佐市 | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | 无 |
 | 4 | 中国 | 重庆市开州区 | PA0RDT Mini-Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | 无 |
