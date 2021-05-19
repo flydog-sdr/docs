@@ -2,7 +2,7 @@
 home: true
 heroImage: /flydog-sdr.png
 heroText: FlyDog SDR
-tagline: The first batch of FlyDog SDR is now sold out and the second batch will be available soon...
+tagline: We DO NOT recommend you to buy this SDR now, because of the increase in the price of materials, we have increased the price. BTW, the second generation will be available this year...
 #tagline: Functionality and Performance are ready, it's time to place an order.
 #actionText: 🛒 Purchase Now
 #actionLink: https://www.aliexpress.com/item/1005001965682869.html
@@ -46,7 +46,7 @@ The FlyDog SDR Project is now offering the following demos for users to try out,
 
 | Number | Country | Region | Antenna | URL | User Password |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Finland | Kotka City, Kymenlaakso Region | Wellbrook ALA1530LN | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
+| 1 | Finland | Kotka City, Kymenlaakso Region | NTi MegaDipol MD300DX | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
 | 2 | China | Zhenjiang City, Jiangsu Province | 3x8 metres SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
 | 3 | Japan | Usa-shi, Ōita Prefecture | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | None |
 | 4 | China | Kaizhou District, Chongqing | PA0RDT Mini-Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | None |
