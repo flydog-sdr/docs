@@ -2,7 +2,7 @@
 home: true
 heroImage: /flydog-sdr.png
 heroText: FlyDog SDR
-tagline: FlyDog SDR 第一批产品目前已售罄，即将推出第二批产品...
+tagline: 我们现在不建议您现在购买此 SDR，因为材料价格上涨，我们已经提高了价格。 我们将要在今年推出第二代产品，敬请期待...
 #tagline: 功能与性能兼备，就差下单了。
 #actionText: 🛒 即刻购入
 #actionLink: https://item.taobao.com/item.htm?id=633348873330
