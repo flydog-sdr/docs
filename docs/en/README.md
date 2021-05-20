@@ -50,7 +50,6 @@ The FlyDog SDR Project is now offering the following demos for users to try out,
 | 2 | China | Zhenjiang City, Jiangsu Province | 3x8 metres SkyLoop | [demo.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
 | 3 | Japan | Usa-shi, Ōita Prefecture | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | None |
 | 4 | China | Kaizhou District, Chongqing | PA0RDT Mini-Whip | [yuki.p.sdrotg.com](http://yuki.p.sdrotg.com/) | None |
-| 5 | China | Quzhou City, Zhejiang Province | K-180WLA Active Loop | [quzhou.p.sdrotg.com](http://quzhou.p.sdrotg.com/) | None |
 
 ## Questions and Answers (Q & A)
 
