@@ -78,6 +78,7 @@ FlyDog SDR 使用 Bebian Buster 作为基础镜像进行构建。
 
 | 变量 | 说明 |
 | :--- | :--- |
+| `APT_MIRROR` | Debian 镜像源 |
 | `GIT_BRANCH` | 指定 Git 分支 |
 | `GIT_HOST` | 指定 GitHub 域名，针对中国大陆加快构建速度 |
 | `GIT_USER` | 指定要拉取之专案所对应的用户名 |

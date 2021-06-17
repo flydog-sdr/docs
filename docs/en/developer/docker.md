@@ -78,6 +78,7 @@ Go to the `flydog-sdr` directory and modify the relevant environment variables i
 
 | ENV | Description |
 | :--- | :--- |
+| `APT_MIRROR` | Debian mirror |
 | `GIT_BRANCH` | Specify a Git branch |
 | `GIT_HOST` | Specify the Git hostname |
 | `GIT_USER` | Specify the username for the repository |
