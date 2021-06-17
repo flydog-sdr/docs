@@ -30,7 +30,7 @@ footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 
 已知以下商家不被信任。
 
- - [HamRadioshop Store](HamRadioshop Store)
+ - [HamRadioshop Store](https://www.aliexpress.com/store/4951008)
 
 ## FlyDog SDR 是什么？
 
