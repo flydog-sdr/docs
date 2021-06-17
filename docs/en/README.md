@@ -22,9 +22,9 @@ features:
 footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 ---
 
-## **IMPORTANT TIPS FOR OVERSEAS BUYERS**
+## IMPORTANT TIPS FOR OVERSEAS BUYERS
 
-We've recently learned of cases where users have purchased FlyDog SDRs from Aliexpress through a reseller and received RaspSDRs instead.
+We've recently learned of cases where users have **purchased FlyDog SDRs from AliExpress through a reseller, but received RaspSDRs instead**.
 
 However, we don't have the authority to interfere with resellers, **so please make sure you've made agreement with them (and keep evidence) before you buy a FlyDog SDR**, which is to prevent you from being deceived and causing unnecessary damage.
 

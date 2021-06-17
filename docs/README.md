@@ -22,6 +22,16 @@ features:
 footer: Licensed under CC-BY-SA 4.0 | Copyleft 2020 FlyDog SDR Project
 ---
 
+## 给海外买家的重要提示
+
+我们最近了解到有海外买家**通过分销商从速卖通（AliExpress）购买 FlyDog SDR 后，却收到 RaspSDR 的案例**。
+
+然而，我们无权干涉分销商，**因此请确保您在购买 FlyDog SDR 之前已与他们达成协议（并保留证据）**，以防止您受骗，并造成不必要的损失。
+
+已知以下商家不被信任。
+
+ - [HamRadioshop Store](HamRadioshop Store)
+
 ## FlyDog SDR 是什么？
 
 ![FlyDog SDR 样品](/sample.jpg "FlyDog SDR 样品")
