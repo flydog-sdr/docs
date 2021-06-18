@@ -101,13 +101,13 @@ IP 核导入时出现的严重警告是安全的，可以忽略。
 
 ## 生成 FPGA 比特流
 
-在 Sources 窗口中展开 Verilog Header 一项，双击 `kiwi.gen.vh` 对其进行编辑。
+在 Sources 窗口中展开 Verilog Header 一项，双击 `kiwi.cfg.vh` 对其进行编辑。
 
-`kiwi.gen.vh` 会指定 Vivado 2019.2 生成不同的 FPGA 比特流文件，对应 FlyDog SDR 的 4 种接收模式。
+`kiwi.cfg.vh` 会指定 Vivado 2019.2 生成不同的 FPGA 比特流文件，对应 FlyDog SDR 的 4 种接收模式。
 
 ### 生成 KiwiSDR.rx4.wf4.bit
 
-默认情况下，`kiwi.gen.vh` 中的配置为四用户（rx4）四瀑布（wf4）。
+默认情况下，`kiwi.cfg.vh` 中的配置为四用户（rx4）四瀑布（wf4）。
 
 在 Vivado 2019.2 主界面左侧选单按下 Generate Bitstream，随后 Vivado 2019.2 会对 IP 核进行综合，综合完成后，开始生成 FPGA 比特流。
 
@@ -121,7 +121,7 @@ IP 核导入时出现的严重警告是安全的，可以忽略。
 
 ### 生成 KiwiSDR.rx3.wf3.bit
 
-修改 `kiwi.gen.vh` 文件 `RX_CFG` 对应值为 `3`。
+修改 `kiwi.cfg.vh` 文件 `RX_CFG` 对应值为 `3`。
 
 代码如下。
 
@@ -136,7 +136,7 @@ parameter RX_CFG = 4;
 
 ### 生成 KiwiSDR.rx8.wf2.bit
 
-操作与生成 KiwiSDR.rx3.wf3.bit 大致相同，但 `kiwi.gen.vh` 文件 `RX_CFG` 字段对应值为 `8`。
+操作与生成 KiwiSDR.rx3.wf3.bit 大致相同，但 `kiwi.cfg.vh` 文件 `RX_CFG` 字段对应值为 `8`。
 
 代码如下。
 
@@ -149,7 +149,7 @@ parameter RX_CFG = 8;
 
 ### 生成 KiwiSDR.rx14.wf0.bit
 
-操作与生成 KiwiSDR.rx3.wf3.bit 大致相同，但 `kiwi.gen.vh` 文件 `RX_CFG` 字段对应值为 `14`，且需要移除或者注释掉 `define USE_WF` 字段。
+操作与生成 KiwiSDR.rx3.wf3.bit 大致相同，但 `kiwi.cfg.vh` 文件 `RX_CFG` 字段对应值为 `14`，且需要移除或者注释掉 `define USE_WF` 字段。
 
 代码如下。
 

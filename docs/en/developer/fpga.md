@@ -101,13 +101,13 @@ The critical warning that appears during IP core import is safe and can be ignor
 
 ## Generate FPGA Bitstream
 
-In the Sources window, expand the Verilog Header entry and double click on `kiwi.gen.vh` to edit it.
+In the Sources window, expand the Verilog Header entry and double click on `kiwi.cfg.vh` to edit it.
 
-`kiwi.gen.vh` will specify that Vivado 2019.2 generates different FPGA bitstream files, corresponding to the 4 FPGA modes of the FlyDog SDR.
+`kiwi.cfg.vh` will specify that Vivado 2019.2 generates different FPGA bitstream files, corresponding to the 4 FPGA modes of the FlyDog SDR.
 
 ### KiwiSDR.rx4.wf4.bit
 
-By default, the configuration in `kiwi.gen.vh` is 4 users (rx4) 4 waterfalls (wf4).
+By default, the configuration in `kiwi.cfg.vh` is 4 users (rx4) 4 waterfalls (wf4).
 
 Click Generate Bitstream in the left menu of the Vivado 2019.2 main interface, Vivado 2019.2 will then synthesize the IP cores and, once the synthesis is complete, start generating the FPGA bitstream.
 
@@ -121,7 +121,7 @@ Close Vivado 2019.2 directly and reopen the project via `project/flydog/flydog.x
 
 ### kiwiSDR.rx3.wf3.bit
 
-Change the `RX_CFG` string in the `kiwi.gen.vh` file to `3`.
+Change the `RX_CFG` string in the `kiwi.cfg.vh` file to `3`.
 
 The code is as follows.
 
@@ -136,7 +136,7 @@ The path to the generated FPGA bitstream file is ``project/flydog/flydog.runs/im
 
 ### KiwiSDR.rx8.wf2.bit
 
-The operation is roughly the same as generating KiwiSDR.rx3.wf3.bit, but the `kiwi.gen.vh` file has a corresponding value of `8` for the `RX_CFG` field.
+The operation is roughly the same as generating KiwiSDR.rx3.wf3.bit, but the `kiwi.cfg.vh` file has a corresponding value of `8` for the `RX_CFG` field.
 
 The code is as follows.
 
@@ -149,7 +149,7 @@ The path to the generated FPGA bitstream file is ``project/flydog/flydog.runs/im
 
 ### KiwiSDR.rx14.wf0.bit
 
-The operation is much the same as generating KiwiSDR.rx3.wf3.bit, except that the `RX_CFG` field in the `kiwi.gen.vh` file has a corresponding value of `14` and the `define USE_WF` field needs to be removed or commented out.
+The operation is much the same as generating KiwiSDR.rx3.wf3.bit, except that the `RX_CFG` field in the `kiwi.cfg.vh` file has a corresponding value of `14` and the `define USE_WF` field needs to be removed or commented out.
 
 The code is as follows.
 
