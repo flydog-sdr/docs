@@ -4,43 +4,42 @@ FlyDog SDR uses an FPGA to process the data sampled by the ADC, so the associate
 
 ## Build the Development Environment
 
-FlyDog SDR uses Vivado 2019.2 for FPGA development.
+FlyDog SDR uses Vivado 2017.4 for FPGA development.
 
 ### System Requirements
 
-Vivado 2019.2 supports the following versions of operating systems and distributions (x86-64 based processor architectures only)
+Vivado 2017.4 supports the following versions of operating systems and distributions (x86-64 based processor architectures only)
 
- - Microsoft Windows 7 SP1 Professional
- - Microsoft Windows 10 (Update 1803; 1903)
- - Red Hat Enterprise Linux (Workstation, Server 7.4; 7.5; 7.6)
- - SUSE Linux Enterprise 12.4
+ - Microsoft Windows 7
+ - Microsoft Windows 10
+ - Red Hat Enterprise Linux 6.6
+ - SUSE Linux Enterprise 11.4
  - CentOS 7
- - Ubuntu Linux (16.04.5; 16.04.6; 18.04.1; 18.04.02)
- - Amazon Linux 2 LTS
+ - Ubuntu Linux 16.04 LTS
 
-Vivado 2019.2 will take up approximately 31 GB of disk space after installation.
+Vivado 2017.4 will take up approximately 23 GB of disk space after installation.
 
-For Vivado 2019.2 release notes, see [ug973-vivado-release-notes-install-license.pdf](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug973-vivado-release-notes-install-license.pdf).
+For Vivado 2017.4 release notes, see [ug973-vivado-release-notes-install-license.pdf](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_4/ug973-vivado-release-notes-install-license.pdf).
 
 ### Get Vivado
 
-To download Vivado 2019.2, developers will need to [create a Xilinx account](https://www.xilinx.com/registration/create-account.html).
+To download Vivado 2017.4, developers will need to [create a Xilinx account](https://www.xilinx.com/registration/create-account.html).
 
-After logging in to your account, go to the [Vivado 2019.2 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2019-2.html), select **Vivado HLx 2019.2: All OS installer Single-File Download** and fill in the relevant form to obtain the file download link.
+After logging in to your account, go to the [Vivado 2017.4 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html), select **Vivado HLx 2017.4: All OS installer Single-File Download** and fill in the relevant form to obtain the file download link.
 
-The file size of Vivado 2019.2 is 26.55 GB and you will need to have a good internet connection to download it.
+The file size of Vivado 2017.4 is 26.55 GB and you will need to have a good internet connection to download it.
 
 ### Installing Vivado
 
-After unzipping `Xilinx_Vivado_2019.2_1106_2127.tar.gz`, execute `xsetup.exe` as administrator on Windows and xsetup in privileged mode (sudo) on Linux.
+After unzipping `Xilinx_Vivado_SDK_2017.4_1216_1.tar.gz`, execute `xsetup.exe` as administrator on Windows and xsetup in privileged mode (sudo) on Linux.
 
 During the installation process, choose to install ISE WebPACK Design Software.
 
 Once the installation is complete, the user can set the relevant environment variables to ensure that Vivado-related commands can be executed in the terminal (optional setting).
 
-For Windows systems, add `Vivado installation path/bin` to the `PATH` in the Advanced System Settings.
+For Windows systems, add `Vivado-installation-path/bin` to the `PATH` in the Advanced System Settings.
 
-For Linux systems, add `export PATH=/opt/Xilinx/Vivado/2019.2/bin:$PATH` to the current user's `.bashrc` file.
+For Linux systems, add `export PATH=/opt/Xilinx/Vivado/2017.4/bin:$PATH` to the current user's `.bashrc` file.
 
 ## Create a Vivado Project
 
@@ -72,13 +71,13 @@ project
 3 directories
 ```
 
-Copy everything under `FlyDog_SDR_GPS/verilog` to `project/flydog/import_src` and everything under `FlyDog_SDR_GPS/verilog.Vivado.2019.2.ip` to `project/flydog/import_ip`.
+Copy everything under `FlyDog_SDR_GPS/verilog` to `project/flydog/import_src` and everything under `FlyDog_SDR_GPS/verilog.Vivado.2017.4.ip` to `project/flydog/import_ip`.
 
 `import_src` contains the FPGA related project files and `flydog/import_ip` contains the related IP cores.
 
 ### Create a Project and Import the Source and IP Cores
 
-Start Vivado 2019.2 and select Create Project under Quick Start on the home page to create a new project.
+Start Vivado 2017.4 and select Create Project under Quick Start on the home page to create a new project.
 
  1. In the wizard that appears, fill in the project name (flydog) and select the path to the `project` directory.
 ![Project Name](/developer/fpga_1.png "Project Name")
@@ -90,7 +89,7 @@ Start Vivado 2019.2 and select Create Project under Quick Start on the home page
  5. Select the hardware in the Default Part page. Type `xc7a35tftg256-1` in the search box and check the listed hardware.
 ![Default Part](/developer/fpga_4.png "Default Part")
 
-Once the project has been created, click Add Sources in the left menu of the Vivado 2019.2 main screen to add the IP cores.
+Once the project has been created, click Add Sources in the left menu of the Vivado 2017.4 main screen to add the IP cores.
 
  1. Select Add or create design sources in the wizard that appears.
  2. In the Add or Create Design Sources page that appears, click Add Directories and select `project/flydog/import_ip`. Check Copy sources into project and Add sources from subdirectories, uncheck Scan and add RTL include files into project.
@@ -103,13 +102,13 @@ The critical warning that appears during IP core import is safe and can be ignor
 
 In the Sources window, expand the Verilog Header entry and double click on `kiwi.cfg.vh` to edit it.
 
-`kiwi.cfg.vh` will specify that Vivado 2019.2 generates different FPGA bitstream files, corresponding to the 4 FPGA modes of the FlyDog SDR.
+`kiwi.cfg.vh` will specify that Vivado 2017.4 generates different FPGA bitstream files, corresponding to the 4 FPGA modes of the FlyDog SDR.
 
 ### KiwiSDR.rx4.wf4.bit
 
 By default, the configuration in `kiwi.cfg.vh` is 4 users (rx4) 4 waterfalls (wf4).
 
-Click Generate Bitstream in the left menu of the Vivado 2019.2 main interface, Vivado 2019.2 will then synthesize the IP cores and, once the synthesis is complete, start generating the FPGA bitstream.
+Click Generate Bitstream in the left menu of the Vivado 2017.4 main interface, Vivado 2017.4 will then synthesize the IP cores and, once the synthesis is complete, start generating the FPGA bitstream.
 
 The time used for this process varies depending on the configuration of the computer.
 
@@ -117,7 +116,7 @@ During synthesis, a Synthesis out-of-date warning will appear and can be ignored
 
 The path to the generated FPGA bitstream file is `project/flydog/flydog.runs/impl_1/KiwiSDR.bit`. Rename the file to `KiwiSDR.rx4.wf4.bit` and move it to another directory.
 
-Close Vivado 2019.2 directly and reopen the project via `project/flydog/flydog.xpr` to avoid a Synthesis out-of-date error in Vivado 2019.2 that will cause the IP to be synthesized again when generating other mode FPGA bitstreams next time.
+Close Vivado 2017.4 directly and reopen the project via `project/flydog/flydog.xpr` to avoid a Synthesis out-of-date error in Vivado 2017.4 that will cause the IP to be synthesized again when generating other mode FPGA bitstreams next time.
 
 ### kiwiSDR.rx3.wf3.bit
 
@@ -130,7 +129,7 @@ parameter RX_CFG = 4;
 ``define USE_WF
 ```
 
-Then click Generate Bitstream in the left menu of the Vivado 2019.2 main screen.
+Then click Generate Bitstream in the left menu of the Vivado 2017.4 main screen.
 
 The path to the generated FPGA bitstream file is ``project/flydog/flydog.runs/impl_1/KiwiSDR.bit``. Rename the file to `KiwiSDR.rx3.wf3.bit` and move it to another directory.
 
