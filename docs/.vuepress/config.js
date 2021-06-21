@@ -112,6 +112,7 @@ module.exports = {
                                 'docker',
                                 'raspbian',
                                 'fpga',
+                                'reverse',
                             ]
                         }
                     ],
@@ -196,6 +197,7 @@ module.exports = {
                                 'docker',
                                 'raspbian',
                                 'fpga',
+                                'reverse',
                             ]
                         }
                     ],

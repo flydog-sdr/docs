@@ -53,9 +53,9 @@ Login to the FlyDog SDR administration, go to the Connect tab, fill in the Dynam
 
 ![DUC configuration](/manual/public_4.png "DUC configuration")
 
-After completing the form, click to (re)start DUC to register the DDNS service with the system.
+After completing the form, click Click to (re)start DUC to register the DDNS service with the system.
 
-Slide to the upper part of the page and select DUC to enable the DDNS service.
+Scroll to the upper part of the page and select DUC to enable the DDNS service.
 
 ![Enable DUC domain](/manual/public_5.png "Enable DUC domain")
 
@@ -102,9 +102,9 @@ Login to the FlyDog SDR administration, go to the Connect tab and fill in the Re
 
 ![Reverse proxy configuration](/manual/public_6.png "Reverse proxy configuration")
 
-Once completed, click to (re)register and wait for the page to return Existing account, registration successful, which means the registration was successful.
+Once completed, click Click to (re)register and wait for the page to return Existing account, registration successful, which means the registration was successful.
 
-Slide to the top half of the page and select Reverse Proxy to enable the reverse proxy service.
+Scroll to the top half of the page and select Reverse Proxy to enable the reverse proxy service.
 
 ![Enable reverse proxy](/manual/public_7.png "Enable reverse proxy")
 
