@@ -2,7 +2,7 @@
 home: true
 heroImage: /flydog-sdr.png
 heroText: FlyDog SDR
-tagline: We DO NOT recommend you to buy this SDR now, because of the increase in the price of materials, we have increased the price. BTW, the second generation will be available this year...
+#tagline: We DO NOT recommend you to buy this SDR now, because of the increase in the price of materials, we have increased the price. BTW, the second generation will be available this year...
 #tagline: Functionality and Performance are ready, it's time to place an order.
 #actionText: 🛒 Purchase Now
 #actionLink: https://www.aliexpress.com/item/1005001965682869.html
