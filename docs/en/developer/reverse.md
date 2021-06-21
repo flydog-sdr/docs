@@ -132,7 +132,7 @@ c0a8d3521340   nginx:stable-alpine   "/docker-entrypoint.…"   40 seconds ago  
 
 Add two records for the domain.
 
-| Type | Name | Value |
+| Type | Name | Content |
 | :--- | :--- | :--- |
 | A | `@` | `1.2.3.4` |
 | A | `*` | `1.2.3.4` |
