@@ -115,6 +115,13 @@ module.exports = {
                                 'fpga',
                                 'reverse',
                             ]
+                        },
+                        {
+                            title: 'FlyDog SDR 硬件',
+                            collapsable: false,
+                            children: [
+                                'sensitivity',                          
+                            ]
                         }
                     ],
                     '/': 'auto',
@@ -200,6 +207,13 @@ module.exports = {
                                 'raspbian',
                                 'fpga',
                                 'reverse',
+                            ]
+                        },
+                        {
+                            title: 'FlyDog SDR Hardware',
+                            collapsable: false,
+                            children: [
+                                'sensitivity',                          
                             ]
                         }
                     ],
