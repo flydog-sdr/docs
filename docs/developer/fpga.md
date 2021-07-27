@@ -10,12 +10,12 @@ FlyDog SDR 使用 Vivado 2017.4 进行 FPGA 开发。
 
 Vivado 2017.4 支持以下版本的操作系统及发行版（限基于 x86-64 的处理器架构）。
 
- - Microsoft Windows 7
- - Microsoft Windows 10
- - Red Hat Enterprise Linux 6.6
- - SUSE Linux Enterprise 11.4
- - CentOS 7
- - Ubuntu Linux 16.04 LTS
+* Microsoft Windows 7
+* Microsoft Windows 10
+* Red Hat Enterprise Linux 6.6
+* SUSE Linux Enterprise 11.4
+* CentOS 7
+* Ubuntu Linux 16.04 LTS
 
 Vivado 2017.4 安装后，将会占用约 23 GB 的磁盘空间。
 
@@ -31,7 +31,7 @@ Vivado 2017.4 文件大小为 16.17 GB，下载时需要保持网络通畅。
 
 ### 安装 Vivado
 
-解压 `Xilinx_Vivado_SDK_2017.4_1216_1.tar.gz` 后，Windows 下以管理员身份执行 `xsetup.exe`，Linux 下以特权模式（sudo）执行 xsetup。
+解压 `Xilinx_Vivado_SDK_2017.4_1216_1.tar.gz` 后，Windows 下以管理员身份执行 `xsetup.exe`，Linux 下以特权模式执行 `xsetup` 。
 
 在安装过程中，选择安装 ISE WebPACK Design Software。
 
@@ -45,16 +45,18 @@ Vivado 2017.4 文件大小为 16.17 GB，下载时需要保持网络通畅。
 
 ### 获取源码和 IP 核
 
-使用 Git 获取 FlyDog_SDR_GPS 核心源码。
+使用 Git 获取 `FlyDog_SDR_GPS`  核心源码。
 
 ```
 [fdsdr@flydog-sdr-project ~]$ git clone https://github.com/flydog-sdr/FlyDog_SDR_GPS.git
+
 ```
 
-对于中国大陆，可以使用 GitHub 镜像（github.com.cnpmjs.org）进行拉取。
+对于中国大陆开发者，可以使用 GitHub 镜像 `github.com.cnpmjs.org`  进行拉取。
 
 ```
 [fdsdr@flydog-sdr-project ~]$ git clone https://github.com.cnpmjs.org/flydog-sdr/FlyDog_SDR_GPS.git
+
 ```
 
 新建一个名为 `project` 的空目录，并在这个空目录中新建子目录 `flydog`。
@@ -69,6 +71,7 @@ project
     └── import_src
 
 3 directories
+
 ```
 
 将 `FlyDog_SDR_GPS/verilog` 下的所有内容拷贝到 `project/flydog/import_src`，将 `FlyDog_SDR_GPS/verilog.Vivado.2017.4.ip` 下的所有内容拷贝到 `project/flydog/import_ip`。
@@ -79,22 +82,22 @@ project
 
 启动 Vivado 2017.4，在主页 Quick Start 下方选择 Create Project，新建一个专案。
 
- 1. 在出现的向导中填入专案名称（flydog），并选择 `project` 目录所在的路径。
-![Project Name](/developer/fpga_1.png "Project Name")
- 2. Project Type 选择 RTL Project，不勾选 Do not specify source at this time。
- 3. 按下 Add Directories，选择 `project/flydog/import_src`。勾选 Scan and add RTL include files into project 和 Add sources from sub directories，取消勾选 Copy sources into project。
-![Add Sources](/developer/fpga_2.png "Add Sources")
- 4. 在 Add Constraints 页面中按下 Add Files，选择 `KiwiSDR.xdc`，不勾选 Copy constraints files into project。
-![Add Constraints](/developer/fpga_3.png "Add Constraints")
- 5. 在 Default Part 页面中选择硬件。在搜索框中输入 `xc7a35tftg256-1`，选中列出的硬件。
-![Default Part](/developer/fpga_4.png "Default Part")
+1. 在出现的向导中填入专案名称（flydog），并选择 `project` 目录所在的路径。
+   ![Project Name](/developer/fpga_1.png "Project Name")
+2. Project Type 选择 RTL Project，不勾选 Do not specify source at this time。
+3. 按下 Add Directories，选择 `project/flydog/import_src`。勾选 Scan and add RTL include files into project 和 Add sources from sub directories，取消勾选 Copy sources into project。
+   ![Add Sources](/developer/fpga_2.png "Add Sources")
+4. 在 Add Constraints 页面中按下 Add Files，选择 `KiwiSDR.xdc`，不勾选 Copy constraints files into project。
+   ![Add Constraints](/developer/fpga_3.png "Add Constraints")
+5. 在 Default Part 页面中选择硬件。在搜索框中输入 `xc7a35tftg256-1`，选中列出的硬件。
+   ![Default Part](/developer/fpga_4.png "Default Part")
 
 专案创建完成后，在 Vivado 2017.4 主界面左侧选单按下 Add Sources，添加 IP 核。
 
- 1. 在出现的向导中选择 Add or create design sources。
- 2. 在随后出现的 Add or Create Design Sources 页面中按下 Add Directories，选择 `project/flydog/import_ip`。勾选 Copy sources into project 和 Add sources from subdirectories，取消勾选 Scan and add RTL include files into project。
-![Add or Create Design Sources](/developer/fpga_5.png "Add or Create Design Sources")
- 3. 按下 Finish，完成 IP 核的导入。
+1. 在出现的向导中选择 Add or create design sources。
+2. 在随后出现的 Add or Create Design Sources 页面中按下 Add Directories，选择 `project/flydog/import_ip`。勾选 Copy sources into project 和 Add sources from subdirectories，取消勾选 Scan and add RTL include files into project。
+   ![Add or Create Design Sources](/developer/fpga_5.png "Add or Create Design Sources")
+3. 按下 Finish，完成 IP 核的导入。
 
 IP 核导入时出现的严重警告是安全的，可以忽略。
 
@@ -106,7 +109,7 @@ IP 核导入时出现的严重警告是安全的，可以忽略。
 
 ### 生成 KiwiSDR.rx4.wf4.bit
 
-默认情况下，`kiwi.cfg.vh` 中的配置为四用户（rx4）四瀑布（wf4）。
+默认情况下，`kiwi.cfg.vh` 中的配置为四用户（rx4）四频谱（wf4）。
 
 在 Vivado 2017.4 主界面左侧选单按下 Generate Bitstream，随后 Vivado 2017.4 会对 IP 核进行综合，综合完成后，开始生成 FPGA 比特流。
 
@@ -127,6 +130,7 @@ IP 核导入时出现的严重警告是安全的，可以忽略。
 ```
 parameter RX_CFG = 4;
 `define USE_WF
+
 ```
 
 然后在 Vivado 2017.4 主界面左侧选单按下 Generate Bitstream。
@@ -135,26 +139,27 @@ parameter RX_CFG = 4;
 
 ### 生成 KiwiSDR.rx8.wf2.bit
 
-操作与生成 KiwiSDR.rx3.wf3.bit 大致相同，但 `kiwi.cfg.vh` 文件 `RX_CFG` 字段对应值为 `8`。
+操作与生成 `KiwiSDR.rx3.wf3.bit`  大致相同，但 `kiwi.cfg.vh` 文件 `RX_CFG` 字段对应值为 `8`。
 
 代码如下。
 
 ```
 parameter RX_CFG = 8;
 `define USE_WF
+
 ```
 
 生成的 FPGA 比特流文件路径为 `project/flydog/flydog.runs/impl_1/KiwiSDR.bit`。将该文件重命名为 `KiwiSDR.rx8.wf2.bit` 后，移动到其他目录。
 
 ### 生成 KiwiSDR.rx14.wf0.bit
 
-操作与生成 KiwiSDR.rx3.wf3.bit 大致相同，但 `kiwi.cfg.vh` 文件 `RX_CFG` 字段对应值为 `14`，且需要移除或者注释掉 `define USE_WF` 字段。
+操作与生成 `KiwiSDR.rx3.wf3.bit`  大致相同，但 `kiwi.cfg.vh` 文件 `RX_CFG` 字段对应值为 `14`，且需要移除或者注释掉 `define USE_WF` 字段。
 
 代码如下。
 
 ```
 parameter RX_CFG = 14;
-//``define USE_WF
+
 ```
 
 生成的 FPGA 比特流文件路径为 `project/flydog/flydog.runs/impl_1/KiwiSDR.bit`。将该文件重命名为 `KiwiSDR.rx14.wf0.bit` 后，移动到其他目录。

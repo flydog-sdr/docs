@@ -100,7 +100,7 @@ module.exports = {
                                 'admin',
                                 'public',
                                 'update',
-                                'map',								
+                                'map',                              
                             ]
                         }
                     ],
@@ -109,6 +109,7 @@ module.exports = {
                             title: '构建 FlyDog SDR',
                             collapsable: false,
                             children: [
+                                'deploy',
                                 'docker',
                                 'raspbian',
                                 'fpga',
@@ -185,7 +186,7 @@ module.exports = {
                                 'admin',
                                 'public',
                                 'update',
-                                'map',	
+                                'map',  
                             ]
                         }
                     ],
@@ -194,6 +195,7 @@ module.exports = {
                             title: 'Build FlyDog SDR',
                             collapsable: false,
                             children: [
+                                'deploy',
                                 'docker',
                                 'raspbian',
                                 'fpga',
