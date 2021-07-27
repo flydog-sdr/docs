@@ -36,7 +36,7 @@ There are two ways to trigger the build process, and each build takes about 40 m
 
 Go to the Actions page, select Build FlyDog SDR Image from the Workflows form, expand the Run workflow menu, and run the workflow to trigger the build.
 
-![Run workflow](/developer/raspbian_1.png "Run workflow")
+![Run workflow](/developer/raspbian_2.png "Run workflow")
 
 ### Daily build
 

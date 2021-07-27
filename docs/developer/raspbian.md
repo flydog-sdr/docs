@@ -36,7 +36,7 @@ FlyDog SDR 提供已经集成好了 FlyDog SDR 的 Raspbian 的镜像，同时�
 
 转到 Actions 页面，在 Workflows 表单中选择 Build FlyDog SDR Image，展开 Run workflow 菜单，执行 Run workflow，即可触发构建。
 
-![Run workflow](/developer/raspbian_1.png "Run workflow")
+![Run workflow](/developer/raspbian_2.png "Run workflow")
 
 ### 每日自动构建
 

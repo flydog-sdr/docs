@@ -1,4 +1,4 @@
-# Deploy FlyDog SDR manually
+# Deploy FlyDog SDR Manually
 
 Some Raspberry Pi's may already have other important services running on them, so it is no longer practical to rewrite the base image provided by the FlyDog SDR Project for the Raspberry Pi and reconfigure the other services again. The FlyDog SDR Project therefore offers the option of manually deploying FlyDog SDR on an existing system.
 

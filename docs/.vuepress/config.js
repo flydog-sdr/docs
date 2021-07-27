@@ -45,7 +45,7 @@ module.exports = {
                     {text: '使用手册', link: '/manual/connect',},
                     {text: '体验 Demo', link: '/#体验-demo'},
                     {text: '资源下载', link: 'https://d.sdrotg.com'},
-                    {text: '面向开发者', link: '/developer/docker',},
+                    {text: '面向开发者', link: '/developer/deploy',},
                 ],
                 sidebar: {
                     '/guide/': [
@@ -131,7 +131,7 @@ module.exports = {
                     {text: 'User Manual', link: '/en/manual/connect',},
                     {text: 'Experience Demos', link: '/en/#experience-the-demo'},
                     {text: 'Downloads', link: 'https://d.sdrotg.com'},
-                    {text: 'For Developers', link: '/en/developer/docker',},
+                    {text: 'For Developers', link: '/en/developer/deploy',},
                 ],
                 sidebar: {
                     '/en/guide/': [
