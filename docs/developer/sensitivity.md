@@ -28,7 +28,7 @@
 
 ![Mental Case](/developer/sensitivity_3.jpg "Mental Case")
 
-使用电烙铁 FlyDog SDR 拓展版金属外壳边缘焊锡熔化，并缓慢揭开金属盖。
+使用电烙铁将 FlyDog SDR 拓展板金属外壳边缘焊锡熔化，并缓慢揭开金属盖。
 
 ![Circuit](/developer/sensitivity_4.jpg "Circuit")
 
