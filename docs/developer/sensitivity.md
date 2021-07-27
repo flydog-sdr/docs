@@ -45,3 +45,5 @@
 在改装时，注意不要损伤到其他元件。
 
 改装完成后，此前部分频率存在衰减的问题即可解决。
+
+![Changes](/developer/sensitivity_7.jpg "Changes")
