@@ -83,7 +83,7 @@ The email format is as follows.
 ```
 To: flydog_sdr-project@yahoo.co.jp
 Subject: Reserve proxy request
-Body of the email.
+Body:
     Serial number: 4321
     Requested hostname: example
     Mainland China optimisation: yes
