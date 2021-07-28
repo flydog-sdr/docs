@@ -47,3 +47,7 @@ Be careful not to damage other components during the modification.
 Once the modification is complete, the previous problem of attenuation at some frequencies can be solved.
 
 ![Changes](/developer/sensitivity_7.jpg "Changes")
+
+Photo provided by another user's (by Matjaz Zibert).
+
+![Matjaz Zibert](/developer/sensitivity_8.jpg "Matjaz Zibert")

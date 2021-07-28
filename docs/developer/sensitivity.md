@@ -47,3 +47,7 @@
 改装完成后，此前部分频率存在衰减的问题即可解决。
 
 ![Changes](/developer/sensitivity_7.jpg "Changes")
+
+由另一位用户的提供的照片（来自 Matjaz Zibert）。
+
+![Matjaz Zibert](/developer/sensitivity_8.jpg "Matjaz Zibert")
