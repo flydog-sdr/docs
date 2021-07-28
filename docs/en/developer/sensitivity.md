@@ -22,6 +22,8 @@ It should be noted that the following modifications to the equipment require a c
 
 The FlyDog SDR Project is not responsible for any damage to the FlyDog SDR expansion board caused by the user during the modification process.
 
+If you don't have the tools around to do the modification, you may be able to visit some mobile phone repair shops for help.
+
 ### Remove the Metal Case
 
 Remove the metal case (Emoji marked) corresponding to the HF-1 and HF-2 interfaces.
