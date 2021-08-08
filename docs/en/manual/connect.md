@@ -24,6 +24,12 @@ The browser will connect directly to the FlyDog SDR via the IP address.
 
 Generally speaking, the IP address assigned by the gateway DHCP server will not change easily, but you can still assign the appropriate intranet IP address to multiple FlyDog SDRs via the router-related functions.
 
+## Via My KiwiSDR
+
+By default, the FlyDog SDR submits its IP and serial number to `my.kiwisdr.com` each time it starts up. Users can get FlyDog SDR current IP address via [My KiwiSDR](http://my.kiwisdr.com/) when they are on the same LAN with the FlyDog SDR.
+
+![My KiwiSDR](/manual/connect_1.png "My KiwiSDR")
+
 ## Not Recommended Browsers
 
 Some browsers may cause problems such as audio underload, incorrect display of the spectrum and non-functional extensions when accessing the FlyDog SDR.

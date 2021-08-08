@@ -52,10 +52,12 @@ Switch the tab to Mode, select the FPGA mode and follow the instructions on the 
 
 The different FPGA modes have their own characteristics, the general differences are as follows.
 
- - Kiwi calssic: traditional reception mode, four users for four spectrums
- - More receivers: up to 8 users can be online at the same time, the first two users (rx1, rx2) can view the spectrum
- - More bandwidth: users can listen to broadcasts with a larger bandwidth (20 kHz) for better sound quality, three users for three spectrums
- - MCORE rx14_wf0: up to 14 users can be online at the same time, no spectrum viewing, no extensions
+| FPGA mode | Spectrum channels | Audio channels |
+| :-- | :-- | :-- |
+| Kiwi classic | 4 | 4 |
+| More receivers | 8 | 2 |
+| More bandwidth | 3 | 3 |
+| MCORE | 0 | 14 |
 
 ## Control FlyDog SDR
 
@@ -129,17 +131,3 @@ The serial number can be obtained in the administration page.
 Switch the tab to Network and locate the four digits after the KiwiSDR serial number, which is the serial number of the FlyDog SDR device.
 
 ![KiwiSDR serial number](/manual/admin_9.png "KiwiSDR serial number")
-
-## Using the Console
-
-If you need to perform certain operations on the FlyDog SDR in the terminal, you can use the console service provided by the administration.
-
-If you are using the console outside the local network, you will need to go to the Security tab and set Restrict console connections to the local network to No.
-
-Switching the tab to Console and pressing Connect will allow you to enter the relevant Linux commands to operate on the system where the FlyDog SDR is located.
-
-However, because FlyDog SDR uses container isolation technology, the actions performed by the user in the console in the background are not performed on the host computer, which ensures a certain degree of security.
-
-In addition, all changes made by the user in the console will be reset when the application is upgraded.
-
-![Console](/manual/admin_10.png "Console")

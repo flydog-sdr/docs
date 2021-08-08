@@ -4,7 +4,7 @@
 
 ## 登入到后台管理页面
 
-要登入到后台，只需在所访问地址后加上 `/admin ` 即可。
+要登入到后台，只需在所访问地址后加上 `/admin` 即可。
 
 ![flydog-sdr:8073/admin](/manual/admin_1.png "flydog-sdr:8073/admin")
 
@@ -12,6 +12,7 @@
 
 ```
 http://flydog-sdr:8073/admin
+
 ```
 
 在输入后台管理登入的默认密码 `flydog-sdr` 后，按下 Enter 键，即可登入到后台管理页面。
@@ -50,12 +51,14 @@ FlyDog SDR 提供多种接收模式，用户可以根据实际需求，选择合
 
 ![Select FPGA mode](/manual/admin_4.png "Select FPGA mode")
 
-不同的接收模式各有其特点，大致区别如下。
+不同的接收模式各有其特点，大致区别如下
 
- - Kiwi calssic：传统接收模式，四用户对应四个频谱
- - More receivers：最大可以容纳 8 用户同时在线，前两个用户（rx1、rx2）可以查看频谱
- - More bandwidth：用户可使用更大带宽（20 kHz）收听广播，取得更好的音质，三用户对应三个频谱
- - MCORE rx14_wf0：最大可以容纳 14 用户同时在线，不能查看频谱，不能使用插件
+| 模式 | 频谱通道数 | 音频通道数 |
+| :-- | :-- | :-- |
+| Kiwi classic | 4 | 4 |
+| More receivers | 8 | 2 |
+| More bandwidth | 3 | 3 |
+| MCORE | 0 | 14 |
 
 ## 对 FlyDog SDR 进行控制
 
@@ -63,16 +66,16 @@ FlyDog SDR 提供多种接收模式，用户可以根据实际需求，选择合
 
 ![Control FlyDog SDR](/manual/admin_5.png "Control FlyDog SDR")
 
- - KiwiSDR server restart：重启应用
- - Daily restart：设定为 Yes 后，服务器将每日重启
- - Enable user connections：设定为 No 后，FlyDog SDR 将拒绝任何传入连接
- - Close all active user connections：强制所有已连接到 FlyDog SDR 的用户下线
- - Number of simultaneous channels available for connection by non-Kiwi apps：允许第三方应用占用连接的上限
- - Disable waterfalls/spectrum：禁用频谱图
- - Reason if disabled：当 Enable user connections 设定为 No 时，向用户显示站点关闭的原因，可使用 HTML 标签
- - Inactivity time limit：针对连入用户的时间限制，0 为不限制
- - 24hr per-IP addr time limit：针对连入 IP 的时间限制，0 为不限制
- - Time limit exemption password：绕过时间限制的密码
+* KiwiSDR server restart：重启应用
+* Daily restart：设定为 Yes 后，服务器将每日重启
+* Enable user connections：设定为 No 后，FlyDog SDR 将拒绝任何传入连接
+* Close all active user connections：强制所有已连接到 FlyDog SDR 的用户下线
+* Number of simultaneous channels available for connection by non-Kiwi apps：允许第三方应用占用连接的上限
+* Disable waterfalls/spectrum：禁用频谱图
+* Reason if disabled：当 Enable user connections 设定为 No 时，向用户显示站点关闭的原因，可使用 HTML 标签
+* Inactivity time limit：针对连入用户的时间限制，0 为不限制
+* 24hr per-IP addr time limit：针对连入 IP 的时间限制，0 为不限制
+* Time limit exemption password：绕过时间限制的密码
 
 ## 从外部连入 FlyDog SDR
 
@@ -92,12 +95,12 @@ FlyDog SDR 提供多种接收模式，用户可以根据实际需求，选择合
 
 对于一般用户，修改以下值即可。
 
- - Frequency (kHz)：初始频率
- - Mode：广播模式（AM、SSB、CW 等）
- - Colormap：频谱图配色方案（根据自身喜好设定）
- - Max receiver frequency：FlyDog SDR 所接收频率范围（最大 62 MHz）
- - ITU region：国际电联区域（根据用户所在国家设定）
- - Initial AM BCB channel spacing：中波步进单位（9 kHz、10 kHz）
+* Frequency (kHz)：初始频率
+* Mode：广播模式（AM、SSB、CW 等）
+* Colormap：频谱图配色方案（根据自身喜好设定）
+* Max receiver frequency：FlyDog SDR 所接收频率范围（最大 62 MHz）
+* ITU region：国际电联区域（根据用户所在国家设定）
+* Initial AM BCB channel spacing：中波步进单位（9 kHz、10 kHz）
 
 ## 修改站点资讯
 
@@ -105,18 +108,18 @@ FlyDog SDR 提供多种接收模式，用户可以根据实际需求，选择合
 
 在修改资讯时，部分表单可以使用 HTML 标签（例如超链接）。
 
- - Top bar title：页面大标题，可使用 HTML 标签
- - Owner info：管理者资讯，可使用 HTML 标签
- - Status：站点状态，位于仪表盘选项卡，可使用 HTML 标签
- - Window/tab title：浏览器标题
- - Location：站点位置
- - Grid square：梅登黑德网格坐标
- - Altitude：海拔，由 GPS 自动设定
- - Map：站点坐标
- - Photo file：由用户自行上传相片
- - Photo maximum height：相片最大高度，以像素（px）为单位
- - Photo title：相片标题
- - Photo description：相片描述
+* Top bar title：页面大标题，可使用 HTML 标签
+* Owner info：管理者资讯，可使用 HTML 标签
+* Status：站点状态，位于仪表盘选项卡，可使用 HTML 标签
+* Window/tab title：浏览器标题
+* Location：站点位置
+* Grid square：梅登黑德网格坐标
+* Altitude：海拔，由 GPS 自动设定
+* Map：站点坐标
+* Photo file：由用户自行上传相片
+* Photo maximum height：相片最大高度，以像素（px）为单位
+* Photo title：相片标题
+* Photo description：相片描述
 
 ![Site information](/manual/admin_8.png "Site information")
 
@@ -129,17 +132,3 @@ FlyDog SDR 提供多种接收模式，用户可以根据实际需求，选择合
 将标签页切换到 Network，定位到 KiwiSDR serial number 后的四位数，则是 FlyDog SDR 的设备序列号。
 
 ![KiwiSDR serial number](/manual/admin_9.png "KiwiSDR serial number")
-
-## 使用控制台
-
-如果需要在终端中对 FlyDog SDR 进行某些操作，可以使用后台管理提供的控制台服务。
-
-如果是在局域网之外使用控制台，用户需要前往 Security 标签页将 Restrict console connections to the local network 设定为 No。
-
-将标签页切换到 Console，按下 Connect 后，即可输入相关 Linux 命令，对 FlyDog SDR 所在系统进行操作。
-
-但是由于 FlyDog SDR 采用了容器隔离技术，所以用户在后台管理的控制台中执行的操作，并非是对宿主机进行操作，这在一定程度上保证了系统安全。
-
-此外，用户在控制台中所做的一切改动，都会在程序升级时被复位。
-
-![Console](/manual/admin_10.png "Console")
