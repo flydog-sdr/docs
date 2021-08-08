@@ -71,7 +71,7 @@ Control the volume by sliding the Volume slider, the channel of the audio output
 
 In case of good network connectivity, you can turn off audio compression by clicking on the Comp button to get better audio quality.
 
-In some cases, you can suppress some of the noise to a certain extent by enabling De-emphasis. To enable de-emphasis, simply flip the corresponding switch.
+In some cases, you can suppress some of the noise to a certain extent by enabling de-emphasis. To enable de-emphasis, simply flip the corresponding switch.
 
 ![De-emphasis](/manual/dashboard_6.png "De-emphasis")
 
