@@ -44,12 +44,6 @@ FlyDog SDR is currently available on a wide range of Raspberry Pi families and c
  - Raspberry Pi 3B/3B+/3A+
  - Raspberry Pi 4B
 
-## Who is Leading the FlyDog SDR Project?
-
-The FlyDog SDR Project is led by JieZhi Studio.
-
-"JieZhi Studio" is a group of people who are passionate about SDR technology and are committed to providing reliable and affordable SDR solutions for mainland Chinese gamers.
-
 ## Experience the Demo!
 
 The FlyDog SDR Project is now offering the following demos for users to try out, all of which have been volunteered by users.
@@ -57,7 +51,6 @@ The FlyDog SDR Project is now offering the following demos for users to try out,
 | Number | Country | Region | Antenna | URL | User Password |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Finland | Kotka City, Kymenlaakso Region | NTi MegaDipol MD300DX | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
-| 2 | China | Yangzhou City, Jiangsu Province | SkyLoop | [tome.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
 | 3 | Japan | Usa-shi, Ōita Prefecture | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | None |
 
 ## Questions and Answers (Q & A)
