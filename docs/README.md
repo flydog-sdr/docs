@@ -44,12 +44,6 @@ FlyDog SDR 目前能在 Raspberry Pi 多系列上流畅使用，满足多种场�
  - Raspberry Pi 3B/3B+/3A+
  - Raspberry Pi 4B
 
-## FlyDog SDR Project 由谁主导？
-
-FlyDog SDR Project 由“杰至工作室”主导。
-
-“杰至工作室”由一群热爱无线电技术的人们组成，并致力于为中国大陆玩家提供可靠且廉价的 SDR 解决方案。
-
 ## 体验 Demo！
 
 FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由用户自愿提供。
@@ -57,7 +51,6 @@ FlyDog SDR Project 现在提供以下实例供用户体验，这些实例均由�
 | 序号 | 国家 | 地区 | 天线 | 访问 URL | 访问密码 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 芬兰 | 屈米区科特卡市 | NTi MegaDipol MD300DX | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | 无 |
-| 2 | 中国 | 江苏省扬州市 | SkyLoop | [tome.p.sdrotg.com](http://demo.p.sdrotg.com/) | `2020` |
 | 3 | 日本 | 大分县宇佐市 | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | 无 |
 
 ## 问与答（Q&A）
@@ -96,8 +89,6 @@ FlyDog SDR 在 Telegram 和 Facebook 上还成立了相关小组（仅限英文�
 
  - Telegram：[t.me/flydog_sdr](https://t.me/flydog_sdr)
  - Facebook：[facebook.com/groups/flydogsdr](https://facebook.com/groups/flydogsdr)
-
-对于中国大陆用户，可以加入 FlyDog SDR 官方 QQ 群：1015109717。
 
 ## 授权
 
