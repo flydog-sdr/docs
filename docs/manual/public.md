@@ -82,7 +82,7 @@ FlyDog SDR Project 为用户提供免费的反向代理服务，并提供两个 
 
 ```
 收件人：flydog_sdr-project@yahoo.co.jp
-邮件主旨：Reserve proxy request
+邮件主旨：Reverse proxy request
 邮件正文：
     Serial number: 4321
     Requested hostname: example
