@@ -82,7 +82,7 @@ The email format is as follows.
 
 ```
 To: flydog_sdr-project@yahoo.co.jp
-Subject: Reserve proxy request
+Subject: Reverse proxy request
 Body:
     Serial number: 4321
     Requested hostname: example
