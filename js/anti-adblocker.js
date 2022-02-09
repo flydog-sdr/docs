@@ -13,7 +13,10 @@ function kiwi_geolocate(which) {
             server = 'get.geojs.io/v1/ip/geo.json';
             break;
         case 2:
-            server = 'ifconfig.io/all.json';
+            server = 'api.ip.sb/geoip';
+            break;
+        case 3:
+            server = 'api.wolfx.jp/geoip.php';
             break;
         default:
             break;
@@ -26,19 +29,8 @@ function kiwi_geolocate(which) {
                 console.log(json);
                 geoloc_json(json);
             } else {
-                if (geo.retry++ < 3) {
+                if (geo.retry++ < 4)
                     kiwi_geolocate(which + 1);
-                } else {
-                    console.log('AdBlock enabled, using other APIs...');
-                    kiwi_ajax('https://api.wolfx.jp/geoip.php', function(json) {
-                        json = {
-                            city: json.city,
-                            country: json.country_name
-                        };
-                        console.log(json);
-                        geoloc_json(json);
-                    }, null, 5000);
-                }
             }
         }, null, 5000
     );
