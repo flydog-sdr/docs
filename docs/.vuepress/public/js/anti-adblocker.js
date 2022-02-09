@@ -30,10 +30,10 @@ function kiwi_geolocate(which) {
                     kiwi_geolocate(which + 1);
                 } else {
                     console.log('AdBlock enabled, using other APIs...');
-                    kiwi_ajax('https://api.ip.sb/geoip', function(json) {
+                    kiwi_ajax('https://api.wolfx.jp/geoip.php', function(json) {
                         json = {
-                            city: json.organization,
-                            country: json.country
+                            city: json.city,
+                            country: json.country_name
                         };
                         console.log(json);
                         geoloc_json(json);
