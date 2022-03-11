@@ -50,7 +50,7 @@ The FlyDog SDR Project is now offering the following demos for users to try out,
 
 | Number | Country | Region | Antenna | URL | User Password |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Finland | Kotka City, Kymenlaakso Region | NTi MegaDipol MD300DX | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
+| 1 | Finland | Kotka City, Kymenlaakso Region | Super KAZ@83° | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
 | 2 | Russia | Moscow region, Krasnoarmeysk | Clone SIRIO GP | [std.swl.su:8073](http://std.swl.su:8073/) | None |
 | 3 | Japan | Usa-shi, Ōita Prefecture | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | None |
 
