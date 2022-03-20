@@ -4,7 +4,7 @@ function kiwi_geolocate(which) {
 
     var server;
     if (which == undefined) which = (new Date()).getSeconds();
-    which = which % 3;
+    which = which % 4;
     switch (which) {
         case 0:
             server = 'ipapi.co/json';
