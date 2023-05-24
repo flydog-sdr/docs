@@ -17,7 +17,7 @@ Possible Cause:
 Solution:
 
  - Wait for a while and then visit again
- - Go to [d.sdrotg.com](https://d.sdrotg.com) to download and flash the latest distribution
+ - Go to [github.com/flydog-sdr/raspbian-builder/releases](https://github.com/flydog-sdr/raspbian-builder/releases) to download and flash the latest distribution
  - Replace the Micro SD card with a Class 10 card with a capacity of 8GB or more
  - Use the official Raspberry Pi power supply or a power supply with a higher full load current
  - Access the FlyDog SDR directly using the hostname or reboot the router

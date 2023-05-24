@@ -20,7 +20,7 @@ In addition, the following components are highly recommended, but not required
 
 ## Write Image to SD Card
 
-Go to [d.sdrotg.com](https://d.sdrotg.com) to download the latest FlyDog SDR system distribution.
+Go to [github.com/flydog-sdr/raspbian-builder/releases](https://github.com/flydog-sdr/raspbian-builder/releases) to download the latest FlyDog SDR system distribution.
 
 ![Download images](/guide/requirements_1.png "Download images")
 

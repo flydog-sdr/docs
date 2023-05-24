@@ -17,7 +17,7 @@
 解决方法：
 
  - 稍作等待后再次访问
- - 前往 [d.sdrotg.com](https://d.sdrotg.com) 下载并刷写最新的系统镜像
+ - 前往 [github.com/flydog-sdr/raspbian-builder/releases](https://github.com/flydog-sdr/raspbian-builder/releases) 下载并刷写最新的系统镜像
  - 更换 Class 10 级别，容量为 8GB 以上的 Micro SD 卡
  - 使用 Raspberry Pi 原装电源或满载电流更大的电源
  - 直接使用主机名访问 FlyDog SDR 或重启路由器

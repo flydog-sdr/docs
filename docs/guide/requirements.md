@@ -20,7 +20,7 @@
 
 ## 向 SD 卡写入镜像
 
-前往 [d.sdrotg.com](https://d.sdrotg.com) 下载得到最新的 FlyDog SDR 安装镜像。
+前往 [github.com/flydog-sdr/raspbian-builder/releases](https://github.com/flydog-sdr/raspbian-builder/releases) 下载得到最新的 FlyDog SDR 安装镜像。
 
 ![Download images](/guide/requirements_1.png "Download images")
 
