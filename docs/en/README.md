@@ -44,13 +44,13 @@ FlyDog SDR is currently available on a wide range of Raspberry Pi families and c
  - Raspberry Pi 3B/3B+/3A+
  - Raspberry Pi 4B
 
-## Experience the Demo!
+## Test the Demo!
 
 The FlyDog SDR Project is now offering the following demos for users to try out, all of which have been volunteered by users.
 
 | Number | Country | Region | Antenna | URL | User Password |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Finland | Kotka City, Kymenlaakso Region | Super KAZ@83° | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
+| 1 | Finland | Kotka City, Kymenlaakso Region | Wellbrook 1520LN | [pso.p.sdrotg.com](http://pso.p.sdrotg.com/) | None |
 | 2 | Russia | Moscow region, Krasnoarmeysk | Clone SIRIO GP | [std.swl.su:8073](http://std.swl.su:8073/) | None |
 | 3 | Japan | Usa-shi, Ōita Prefecture | ApexRadio 303WA-2 | [sdr-swl.p.sdrotg.com](http://sdr-swl.p.sdrotg.com/) | None |
 
