@@ -4,34 +4,35 @@ FlyDog SDR uses an FPGA to process the data sampled by the ADC, so the associate
 
 ## Build the Development Environment
 
-FlyDog SDR uses Vivado 2017.4 for FPGA development.
+FlyDog SDR uses Vivado 2022.2 for FPGA development.
 
 ### System Requirements
 
-Vivado 2017.4 supports the following versions of operating systems and distributions (x86-64 based processor architectures only)
+Vivado 2022.2 supports the following versions of operating systems and distributions.
 
-* Microsoft Windows 7
-* Microsoft Windows 10
-* Red Hat Enterprise Linux 6.6
-* SUSE Linux Enterprise 11.4
-* CentOS 7
-* Ubuntu Linux 16.04 LTS
+ - Microsoft Windows Professional/Enterprise 10.0 1903 Update; 10.0 1909 Update; 10.0 2004 Update: 10.0 20H2 Update; 10.0 21H1 Update
+ - Microsoft Windows 11
+ - Red Hat Enterprise Workstation/Server 7.4, 7.5, 7.6, 7.7, 7.9, 8.2, 8.3, 8.4, 8.5, and 8.6 (64-bit), English/Japanese
+ - CentOS 7.4, 7.5, 7.6, 7.7, and 7.9 (64-bit), English/Japanese
+ - SUSE Linux Enterprise 12 SP and 15 SP2 (64-bit), English/Japanese
+ - Amazon Linux 2 AL2 LTS (64-bit)
+ - Ubuntu Linux 18.04.1 LTS; 18.04.2 LTS, 18.04.3 LTS; 18.04.4 LTS; 18.04.5 LTS; 18.04.6 LTS; and 20.04 LTS, 20.04.1 LTS, 20.04.2 LTS, 20.04.3 LTS, 20.04.4 LTS; 22.04 LTS (64-bit), English/Japanese
 
-Vivado 2017.4 will take up approximately 23 GB of disk space after installation.
+Vivado 2022.2 will take up approximately 34 GB of disk space after installation.
 
-For Vivado 2017.4 release notes, see [ug973-vivado-release-notes-install-license.pdf](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_4/ug973-vivado-release-notes-install-license.pdf).
+For Vivado 2022.2 release notes, see [Vivado Design Suite User Guide: Release Notes, Installation, and Licensing (UG973)](https://docs.xilinx.com/r/2022.2-English/ug973-vivado-release-notes-install-license).
 
 ### Get Vivado
 
-To download Vivado 2017.4, developers will need to [create a Xilinx account](https://www.xilinx.com/registration/create-account.html).
+To download Vivado 2022.2, developers will need to [create a AMD account](https://www.amd.com/en/registration/create-account.html).
 
-After logging in to your account, go to the [Vivado 2017.4 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html), select **Vivado HLx 2017.4: All OS installer Single-File Download** and fill in the relevant form to obtain the file download link.
+After logging in to your account, go to the [Vivado 2022.2 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2022-2.html), select **Vivado ML Edition - 2022.2  Full Product Installation** and fill in the relevant form to obtain the file download link.
 
-The file size of Vivado 2017.4 is 26.55 GB and you will need to have a good internet connection to download it.
+The file size of Vivado 2022.2 is 89.4 GB and you will need to have a good internet connection to download it.
 
 ### Installing Vivado
 
-After unzipping `Xilinx_Vivado_SDK_2017.4_1216_1.tar.gz`, execute `xsetup.exe` as administrator on Windows and `xsetup`  in privileged mode on Linux.
+After unzipping `Xilinx_Unified_2022.2_1014_8888.tar.gz`, execute `xsetup.exe` as administrator on Windows and `xsetup`  in privileged mode on Linux.
 
 During the installation process, choose to install ISE WebPACK Design Software.
 
@@ -39,7 +40,7 @@ Once the installation is complete, the user can set the relevant environment var
 
 For Windows systems, add `Vivado-installation-path/bin` to the `PATH` in the Advanced System Settings.
 
-For Linux systems, add `export PATH=/opt/Xilinx/Vivado/2017.4/bin:$PATH` to the current user's `.bashrc` file.
+For Linux systems, add `export PATH=/opt/Xilinx/Vivado/2022.2/bin:$PATH` to the current user's `.bashrc` file.
 
 ## Create a Vivado Project
 
@@ -74,13 +75,13 @@ project
 
 ```
 
-Copy everything under `FlyDog_SDR_GPS/verilog` to `project/flydog/import_src` and everything under `FlyDog_SDR_GPS/verilog.Vivado.2017.4.ip` to `project/flydog/import_ip`.
+Copy everything under `FlyDog_SDR_GPS/verilog` to `project/flydog/import_src` and everything under `FlyDog_SDR_GPS/verilog.Vivado.2022.2.ip` to `project/flydog/import_ip`.
 
 `import_src` contains the FPGA related project files and `flydog/import_ip` contains the related IP cores.
 
 ### Create a Project and Import the Source and IP Cores
 
-Start Vivado 2017.4 and select Create Project under Quick Start on the home page to create a new project.
+Start Vivado 2022.2 and select Create Project under Quick Start on the home page to create a new project.
 
 1. In the wizard that appears, fill in the project name (flydog) and select the path to the `project` directory.
    ![Project Name](/developer/fpga_1.png "Project Name")
@@ -92,7 +93,7 @@ Start Vivado 2017.4 and select Create Project under Quick Start on the home page
 5. Select the hardware in the Default Part page. Type `xc7a35tftg256-1` in the search box and check the listed hardware.
    ![Default Part](/developer/fpga_4.png "Default Part")
 
-Once the project has been created, click Add Sources in the left menu of the Vivado 2017.4 main screen to add the IP cores.
+Once the project has been created, click Add Sources in the left menu of the Vivado 2022.2 main screen to add the IP cores.
 
 1. Select Add or create design sources in the wizard that appears.
 2. In the Add or Create Design Sources page that appears, click Add Directories and select `project/flydog/import_ip`. Check Copy sources into project and Add sources from subdirectories, uncheck Scan and add RTL include files into project.
@@ -101,17 +102,29 @@ Once the project has been created, click Add Sources in the left menu of the Viv
 
 The critical warning that appears during IP core import is safe and can be ignored.
 
+### Upgrade IP Cores
+
+To ensure that the build process goes smoothly, the IP cores need to be upgraded.
+
+In the menu above the Vivado 2022.2 main interface, click Reports and select Report IP Status.
+
+![Report IP Status](/developer/fpga_6.png "Report IP Status")
+
+In the IP Status tab below the Vivado 2022.2 main interface, click Upgrade Selected, then click OK in the pop-up dialog box to upgrade the IP cores.
+
+![IP Status](/developer/fpga_7.png "Upgrade Selected IP")
+
 ## Generate FPGA Bitstream
 
 In the Sources window, expand the Verilog Header entry and double click on `kiwi.cfg.vh` to edit it.
 
-`kiwi.cfg.vh` will specify that Vivado 2017.4 generates different FPGA bitstream files, corresponding to the 4 FPGA modes of the FlyDog SDR.
+`kiwi.cfg.vh` will specify that Vivado 2022.2 generates different FPGA bitstream files, corresponding to the 4 FPGA modes of the FlyDog SDR.
 
 ### KiwiSDR.rx4.wf4.bit
 
 By default, the configuration in `kiwi.cfg.vh` is 4 users (rx4) 4 waterfalls (wf4).
 
-Click Generate Bitstream in the left menu of the Vivado 2017.4 main interface, Vivado 2017.4 will then synthesize the IP cores and, once the synthesis is complete, start generating the FPGA bitstream.
+Click Generate Bitstream in the left menu of the Vivado 2022.2 main interface, Vivado 2022.2 will then synthesize the IP cores and, once the synthesis is complete, start generating the FPGA bitstream.
 
 The time used for this process varies depending on the configuration of the computer.
 
@@ -119,7 +132,7 @@ During synthesis, a Synthesis out-of-date warning will appear and can be ignored
 
 The path to the generated FPGA bitstream file is `project/flydog/flydog.runs/impl_1/KiwiSDR.bit`. Rename the file to `KiwiSDR.rx4.wf4.bit` and move it to another directory.
 
-Close Vivado 2017.4 directly and reopen the project via `project/flydog/flydog.xpr` to avoid a Synthesis out-of-date error in Vivado 2017.4 that will cause the IP to be synthesized again when generating other mode FPGA bitstreams next time.
+Close Vivado 2022.2 directly and reopen the project via `project/flydog/flydog.xpr` to avoid a Synthesis out-of-date error in Vivado 2022.2 that will cause the IP to be synthesized again when generating other mode FPGA bitstreams next time.
 
 ### kiwiSDR.rx3.wf3.bit
 
@@ -133,7 +146,7 @@ parameter RX_CFG = 4;
 
 ```
 
-Then click Generate Bitstream in the left menu of the Vivado 2017.4 main screen.
+Then click Generate Bitstream in the left menu of the Vivado 2022.2 main screen.
 
 The path to the generated FPGA bitstream file is `project/flydog/flydog.runs/impl_1/KiwiSDR.bit`. Rename the file to `KiwiSDR.rx3.wf3.bit` and move it to another directory.
 
